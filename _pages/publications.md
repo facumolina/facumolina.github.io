@@ -12,7 +12,7 @@ R. Degiovanni, F. Molina, G. Regis and N. Aguirre. <br>
 Montpellier, France, ACM, 2018</i>.
 
 
-<b>[From operational to declarative specifications using a genetic algorithm](http://facumolina.github.io/files/ga-spec-learning-catalogue.pdf)</b><br> 
+<b>[From Operational to Declarative Specifications using a Genetic Algorithm](http://facumolina.github.io/files/ga-spec-learning-catalogue.pdf)</b><br> 
 F. Molina, R. Degiovanni, G. Regis, P. Castro, N. Aguirre and M. Frias. <br>
 <i>Proceedings of the 11th International Workshop on Search-Based Software Testing SBST@ICSE 2018, <br>
 Gothenburg, Sweden, ACM, 2018</i> .	
