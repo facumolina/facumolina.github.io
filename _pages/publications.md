@@ -8,7 +8,7 @@ author_profile: true
 ## 2019
 <b>[Training Binary Classifiers as Data Structure Invariants](http://facumolina.github.io/files/learning-invariants.pdf)</b><br>
 F. Molina, P. Ponzio, R. Degiovanni, G. Regis, N. Aguirre and M. Frias. <br>
-<i>To appear in Proceedings of the 41th International Conference on Software Engineering ICSE 2019,<br>
+<i>Proceedings of the 41th International Conference on Software Engineering ICSE 2019,<br>
 Montréal, Canada, ACM, 2019</i>.
 
 ## 2018
