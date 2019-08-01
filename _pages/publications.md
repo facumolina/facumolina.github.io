@@ -6,6 +6,10 @@ author_profile: true
 ---
 
 ## 2019
+<b>[An Evolutionary Approach to Translating Operational Specifications into Declarative Specifications](https://www.sciencedirect.com/science/article/pii/S0167642319300735?via%3Dihub)</b><br>
+F. Molina, C. Cornejo, R. Degiovanni, G. Regis, P. F. Castro, N. Aguirre and M. Frias. <br>
+<i>Science of Computer Programming, Volume 181, 2019, Pages 47-63, ISSN 0167-6423</i>.
+
 <b>[Training Binary Classifiers as Data Structure Invariants](http://facumolina.github.io/files/learning-invariants.pdf)</b><br>
 F. Molina, P. Ponzio, R. Degiovanni, G. Regis, N. Aguirre and M. Frias. <br>
 <i>Proceedings of the 41th International Conference on Software Engineering ICSE 2019,<br>
