@@ -6,6 +6,6 @@ Computer Science PhD student. <br> Teaching Assistant of *Introduction to Progra
 
 ## About me
 
-I am a [CONICET](https://www.conicet.gov.ar/) (Argentina's National Scientific and Technical Research Council) funded PhD student at the Software Engineering and Formal Methods Group, at the University of Rio Cuarto, Argentina, supervised by [Nazareno Aguirre](https://dc.exa.unrc.edu.ar/staff/naguirre/en/Nazareno_Aguirres_Personal_Web_Page/Main.html).
+I am a [CONICET](https://www.conicet.gov.ar/) funded PhD student at the Software Engineering and Formal Methods Group, at the University of Rio Cuarto, Argentina, supervised by [Nazareno Aguirre](https://dc.exa.unrc.edu.ar/staff/naguirre/en/Nazareno_Aguirres_Personal_Web_Page/Main.html).
 
 My main research topic is the application of Machine Learning techniques to Program Analysis tasks. Specifically, i research how to automatically produce formal software specifications. My research involves using a variety of techniques, Neural Networks and Genetic Algorithms in particular 👉 [Publications](https://facumolina.github.io/publications/).
