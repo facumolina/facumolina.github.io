@@ -8,7 +8,7 @@ Many software validation and verification activities require a description of th
 analysis approaches.
 
 
-In this context, this project focuses on the use of evolutionary computation in two particular tasks. On the one side, a technique based on [genetic algorithms](https://en.wikipedia.org/wiki/Genetic_algorithm) was implemented to search for declarative specifications (in relational logic) equivalent to provided operational ones. Moreover, this kind of algorihtms were also used to search for formulas (in temporal logic) that capture obstacles in formal requirements specifications.
+In this context, this project focuses on the use of evolutionary computation in two particular tasks. On the one side, a technique based on [genetic algorithms](https://en.wikipedia.org/wiki/Genetic_algorithm) was implemented to search for declarative specifications (in relational logic) equivalent to provided operational ones. On the other side, this kind of algorihtms were also used to search for formulas (in temporal logic) that capture obstacles in formal requirements specifications.
 
 <div style="text-align: center">
 	<img src="{{ site.url }}{{ site.baseurl }}/images/gaspecs.png" width="70%">
