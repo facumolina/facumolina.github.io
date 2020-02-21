@@ -1,0 +1,165 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://facumolina.github.io/}{\Large Facundo Molina}} & Email : \href{mailto:facu.molina7@gmail.com}{facu.molina7@gmail.com}\\
+  \href{https://facumolina.github.io/}{https://facumolina.github.io/} & Mobile : +54-358-483-8631 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Rio Cuarto}{Argentina}
+      {PhD student in Computer Science}{Apr. 2017 -- Present}
+    \resumeSubheading
+      {University of Rio Cuarto}{Argentina}
+      {Master of Science in Computer Science;  GPA: 9.43/10.0}{Feb. 2015 -- Feb. 2017}
+    \resumeSubheading
+      {University of Rio Cuarto}{Argentina}
+      {Bachelor of Science in Computer Science;  GPA: 9.33/10.0}{Feb. 2012 -- Dec. 2014}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {SMF Consulting S.L}{Spain}
+      {Software Engineer}{Apr 2015 - Feb 2019}
+      \resumeItemListStart
+        \resumeItem{Openbravo ERP}
+          {The Openbravo ERP is a web-based ERP business solution for small and medium-sized companies. Developed different Java modules to extend the platform solutions.}
+        \resumeItem{Openbravo Web POS}
+          {The Openbravo Web POS is a fully web based POS system based on HTML5 technologies. Developed some customizations to extend the functionality of the POS system.}
+        \resumeItem{Dev Environment}
+          {Setup development environment with technologies such as Apache Tomcat, Apache Ant and PostgreSQL.}
+        \resumeItem{Web Services}
+          {Developed Java web services to synchronize data between Openbravo and other systems.}
+        \resumeItem{OBot}
+          {OBot is a bot designed to help users to perform actions on the Openbravo platform. Designed core functionalities of the bot using the Dialogflow framework.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {University of Rio Cuarto}{Argentina}
+      {PhD student and Teaching Assistant}{Apr 2017 - Present}
+      \resumeItemListStart
+        \resumeItem{Research - Machine Learning for Program Analysis}
+          {Research on the application of machine learning techniques to different program analysis tasks. Implemented genetic algorithms to explore search spaces composed of logical formulas. Also using a neural network approach to solve supervised learning problems in order to improve program analysis tasks, in particular to learn models from software behaviours.}
+        \resumeItem{Teaching Assistant - Computability and Complexity}
+          {Course of the 5th year in the Computer Science degree. Involved in creating assignments, exams.}
+         \resumeItem{Teaching Assistant - Distributed and Outsourced Software Engineering}
+          {Course of the 3th year in the Computer Science degree. Lead the construction of a software system developed by the students during the course.}
+      \resumeItemListEnd
+
+	\resumeSubheading
+      {Gateway Commercial Finance}{USA}
+      {Freelance Software Engineer}{May 2018 - Present}
+      \resumeItemListStart
+        \resumeItem{ChatBot Development}
+          {Designed and developed a Dialogflow based chat bot to interact with customers in a financial domain. }
+        \resumeItem{DevOps}
+          {Mantainance of a Ruby based website in an AWS environment (using Route 53, S3, Amazon SES, etc.)}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Current Research Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Data Structure Object Classification}
+      {Using Keras Neural Networks to learn to classify valid and invalid objects in Java Data Structures.}
+    \resumeSubItem{Goal Conflict Identification}
+      {A Java Genetic Algorithm for Goal Conflict Identification during the Specification phase in the Requirements Engineering process.}
+    \resumeSubItem{Learning Symbolic Invariants}
+      {Improve Symbolic Execution in the Java Pathfinder system by learning Symbolic Invariants using Neural Networks.}
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+%\section{Programming Skills}
+%  \resumeSubHeadingListStart
+%    \item{
+%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
+%      \hfill
+%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+%    }
+%  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}

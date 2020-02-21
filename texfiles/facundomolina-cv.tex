@@ -1,0 +1,277 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{amsfonts}
+\usepackage{longtable}
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titleformat{\subsection}{\large\scshape\raggedright}{}{1em}{\underline}[] % Text formatting of subsections
+\titlespacing{\section}{0pt}{3pt}{5pt} % Spacing around sections
+\titlespacing{\subsection}{0pt}{10pt}{2pt} % Spacing around subsections
+\usepackage{graphicx}
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge Facundo \textsc{Molina}}\bigskip\par} % Your name
+
+\section{Datos personales}
+
+\begin{tabular}{rl}
+\\
+\textsc{Lugar y fecha de nacimiento:} & Carnerillo - Córdoba - Argentina | 12 Agosto 1994 \\
+\textsc{DNI:} & 37.488.945 \\
+\textsc{Nacionalidad:} & Argentino \\
+\textsc{Dirección:} & Francisco Muñiz 470 - 10 5 - Río Cuarto - Córdoba - Argentina\\
+\textsc{Teléfono:} & +54 9 358 4838631\\
+\textsc{email:} & \href{mailto:fmolina@dc.exa.unrc.edu.ar}{fmolina@dc.exa.unrc.edu.ar} \\
+\textsc{Web personal:} & \href{https://facumolina.github.io/}{https://facumolina.github.io/} 
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Formación Académica}
+\begin{tabular}{rl}
+\\
+\textsc{2017 -}	& \textbf{Doctorado en Ciencias de la Computación} \\
+\textsc{Presente}  & Ingeniería de Software - Métodos Formales - Aprendizaje Automático \\
+& Aplicación de técnicas de aprendizaje automático a diferentes tareas de \\ 
+& análisis de programas. \\
+& Director: Dr. Nazareno Aguirre \\
+& \textit{Departamento de Computación - FCEFQyN} \\ & \textit{Universidad Nacional de Río Cuarto} - Argentina \\  & \\
+
+\textsc{2012 - 2017}	& \textbf{Licenciatura en Ciencias de la Computación} \\
+& \textit{Departamento de Computación - FCEFQyN} \\ & \textit{Universidad Nacional de Río Cuarto} - Argentina \\ 
+& \textsc{Trabajo final:} Aprendizaje Automático de Especificaciones Relacionales \\ &
+utilizando Computación Evolutiva  \\ & \textsc{Promedio:} 9,43 \\ & \\
+
+\textsc{2012 - 2014}	& \textbf{Analista en Computación} \\
+ 					& \textit{Departamento de Computación - Facultad de Ciencias Exactas, Fco-Químicas y} \\ & \textit{Naturales - Universidad Nacional de Río Cuarto} - Argentina \\
+& \textsc{Trabajo final:} Proyecto en el marco de la materia Distributed and Outsourced \\ & Software Engineering \\ & \textsc{Promedio:} 9,33 \\  \\ 
+\end{tabular}
+
+\section{Publicaciones}
+\begin{longtable}{rl}
+
+\textsc{Julio} 2019  & \textbf{An Evolutionary Approach to Translating Operational Specifications} \\ & \textbf{into Declarative Specifications} - Facundo Molina, César Cornejo, Renzo\\ 
+& Degiovanni, Germán Regis, Pablo Castro, Nazareno Aguirre and Marcelo Frias \\
+& \textit{Science of Computer Programming, Volume 181, Pages 47-63, 2019.} \\ & \\
+
+\textsc{Mayo} 2019  & \textbf{Training Binary Classifiers as Data Structure Invariants} \\ 
+& Facundo Molina, Pablo Ponzio, Renzo Degiovanni, Germán Regis, \\ 
+& Nazareno Aguirre and Marcelo Frias \\
+& \textit{To appear in Proceedings of the 41th International Conference on Software Engineering,} \\
+& \textit{ICSE 2019, Montreal, Canada, May 25-31, 2019.} \\ & \\
+
+\textsc{Septiembre} 2018  & \textbf{A Genetic Algorithm for Goal-Conflict Identification} \\ 
+& Renzo Degiovanni, Facundo Molina, Germán Regis and Nazareno Aguirre \\
+& \textit{Proceedings of the 33rd ACM/IEEE International Conference on Automated } \\
+& \textit{Software Engineering, ASE 2018, Montpellier, France, September 3-7, 2018.} \\ & \\
+
+\textsc{Mayo} 2018  & \textbf{From Operational to Declarative Specifications using a Genetic} \\ & \textbf{Algorithm} - Facundo Molina, Renzo Degiovanni, Germán Regis, Pablo Castro,\\
+& Nazareno Aguirre and Marcelo Frias \\
+& \textit{Proceedings of the 11th International Workshop on Search-Based Software Testing,} \\
+& \textit{SBST@ICSE 2018, Gothenburg, Sweden, May 28-29, 2018.} \\
+& SBST 2018 Best paper award. \\ & \\
+
+\textsc{Noviembre} 2016 & \textbf{An Evolutionary Approach to Translate Operational Specifications} \\ & \textbf{into Declarative Specifications} - Facundo Molina, César Cornejo, Renzo \\
+& Degiovanni, Germán Regis, Pablo Castro, Nazareno Aguirre and Marcelo Frias \\
+& \textit{Proceedings of the 19th Brazilian Symposium on Formal Methods} \\ 
+& \textit{SBMF 2016, Natal, Brazil, November 22-25, 2016.} \\ 
+& SBMF 2016 Best paper award. \\ & \\
+
+\end{longtable}
+
+\section{Premios \& Distinciones}
+\begin{tabular}{rl}
+\\
+\textsc{2018} & \textbf{Premio al Mejor Paper} \\ 
+& \textit{From Operational to Declarative Specifications using a Genetic Algorithm} \\
+& \textit{11th International Workshop on Search-Based Software Testing, SBST 2018.} \\ & \\
+
+\textsc{2016} & \textbf{Premio al Mejor Paper} \\ 
+& \textit{An Evolutionary Approach to Translate Operational Specifications into } \\
+& \textit{Declarative Specifications, 19th Brazilian Symposium on Formal Methods, SBMF 2016.} \\ & \\
+
+\textsc{2016} & \textbf{Escolta de la bandera de la Universidad Nacional de Río Cuarto durante un año} \\ 
+& \textit{Honor tradicional en instituciones educativas de Argentina.} \\ & \\
+\end{tabular}
+
+\section{Becas}
+\begin{tabular}{rl}
+\\
+\textsc{2017} & \textbf{Beca Doctoral} \\ 
+& \textit{Beca de 5 años otorgada por el Consejo Nacional de Investigaciones Científicas y Técnicas} \\
+& \textit{(CONICET) de Argentina para financiar la carrera doctoral de estudiantes graduados.} \\ & \\
+
+\textsc{2016} & \textbf{Beca EVC-CIN} \\ 
+& \textit{Beca de 1 año otorgada por el Consejo Interuniversitario Nacional (CIN) de Argentina} \\
+& \textit{para alentar a los estudiantes de grado a seguir vocaciones científicas.} \\ & \\
+
+\end{tabular}
+
+\section{Servicios}
+\begin{longtable}{rl}
+\textsc{2019}	& \textbf{Estudiante Voluntario} \\ 
+& \textit{41th International Conference on Software Engineering, ICSE 2019} \\ 
+& \textit{Montreal, Canada}. \\ & \\
+
+\textsc{2018}	& \textbf{Estudiante Voluntario} \\
+& \textit{33rd ACM/IEEE International Conference on Automated Software Engineering, ASE 2018} \\
+& \textit{Montpellier, France}. \\ & \\
+
+\textsc{2017}	& \textbf{Estudiante Voluntario} \\ 
+& \textit{39th International Conference on Software Engineering, ICSE 2017} \\ 
+& \textit{Buenos Aires, Argentina}. \\ & \\
+\end{longtable}
+
+
+\section{Antecedentes Docentes}
+
+\begin{longtable}{rl}
+\\
+
+\textsc{Agosto 2019} & \textbf{Ayudante de Primera} \\
+\textsc{- Febrero 2020} & \textsc{Asignatura:} Introducción a la Algorítmica y Programación \\
+& \textit{Departamento de Computación - FCEFQyN} \\
+& \textit{Universidad Nacional de Río Cuarto} - Argentina \\ & \\
+
+\textsc{Marzo 2019} & \textbf{Ayudante de Primera} \\
+\textsc{- Junio 2019} & \textsc{Asignatura:} Introducción a la Algorítmica y Programación \\ 
+& \textit{Departamento de Computación - FCEFQyN} \\
+& \textit{Universidad Nacional de Río Cuarto} - Argentina \\ & \\
+
+\textsc{Agosto 2018} & \textbf{Ayudante de Primera} \\
+\textsc{- Diciembre 2018} & \textsc{Asignatura:} DOSE \\ 
+& \textit{Departamento de Computación - FCEFQyN} \\
+& \textit{Universidad Nacional de Río Cuarto} - Argentina \\ & \\
+
+\textsc{Marzo 2018} & \textbf{Ayudante de Primera} \\
+\textsc{- Junio 2018} & \textsc{Asignatura:} Computabilidad y Complejidad \\ 
+& \textit{Departamento de Computación - FCEFQyN} \\
+& \textit{Universidad Nacional de Río Cuarto} - Argentina \\ & \\
+
+\textsc{Marzo 2017} & \textbf{Ayudante de Segunda} \\
+\textsc{- Junio 2017} & \textsc{Asignatura:} Diseño de Algoritmos \\ & \textit{Departamento de Computación - FCEFQyN} \\  
+& \textit{Universidad Nacional de Río Cuarto} - Argentina \\ & \\
+
+\textsc{Agosto 2016} & \textbf{Ayudante de Segunda} \\
+\textsc{- Noviembre 2016} & \textsc{Asignatura:} Análisis Comparativo de Lenguajes \\ & \textit{Departamento de Computación - FCEFQyN} \\  
+& \textit{Universidad Nacional de Río Cuarto} - Argentina \\ & \\
+
+\textsc{Marzo 2016} & \textbf{Ayudante de Segunda} \\
+\textsc{- Junio 2016} & \textsc{Asignatura:} Análisis y Diseño de Sistemas \\ & \textit{Departamento de Computación - FCEFQyN} \\  
+& \textit{Universidad Nacional de Río Cuarto} - Argentina \\ & \\
+
+\textsc{Agosto 2015 -} & \textbf{Ayudante de Segunda} \\
+\textsc{Noviembre 2015} & \textsc{Asignatura:} Análisis Comparativo de Lenguajes \\ & \textit{Departamento de Computación - FCEFQyN} \\  
+& \textit{Universidad Nacional de Río Cuarto} - Argentina \\ & \\
+
+\textsc{Marzo 2015} & \textbf{Ayudante de Segunda} \\
+\textsc{- Junio 2015} & \textsc{Asignatura:} Diseño de Algoritmos \\ & \textit{Departamento de Computación - FCEFQyN} \\ & \textit{Universidad Nacional de Río Cuarto} - Argentina \\ & \\ 
+
+\textsc{Agosto 2014 -} & \textbf{Ayudante de Segunda} \\
+\textsc{Noviembre 2014} & \textsc{Asignatura:} Estructuras de Datos y Algoritmos \\ & \textit{Departamento de Computación - FCEFQyN} \\ & \textit{Universidad Nacional de Río Cuarto} - Argentina \\ & \\ 
+
+\end{longtable}
+
+\section{Cursos}
+\begin{longtable}{rl}
+\\
+\textsc{Septiembre} 2018 & \textbf{Redes Neuronales} - Dr. Francisco Tamarit \\
+\textsc{Diciembre} 2018 & \textit{Fundamentos matemáticos de las redes neuronales}  \\ 
+& \textit{Universidad Nacional de Córdoba} - Argentina \\ & \\
+
+\textsc{Agosto} 2017 & \textbf{Text Mining} - Dr. Laura Alonso Alemany \\
+\textsc{Noviembre} 2017 & \textit{Técnicas de Minería de Datos aplicadas a problemas de Procesamiento de Lenguaje Natural}  \\ 
+& \textit{Universidad Nacional de Córdoba} - Argentina \\ & \\
+
+\textsc{Febrero} 2017 & \textbf{Human dynamics: Data, Networks and Modelling} - Dr Márton Karsai \\
+& \textit{Escuela de Verano de Ciencias Informáticas RIO 2017} \\
+& \textit{Universidad Nacional de Río Cuarto} \\ & \\
+
+\textsc{Febrero} 2016 & \textbf{Systematic Test Case Generation} - Prof. Sarfraz Khurshid \\
+& \textit{Escuela de Verano de Ciencias Informáticas RIO 2016} \\
+& \textit{Universidad Nacional de Río Cuarto} \\ & \\
+
+\textsc{Febrero} 2016 & \textbf{Symbolic Program Analysis} - Prof. Willem Visser \\
+& \textit{Escuela de Verano de Ciencias Informáticas RIO 2016} \\
+& \textit{Universidad Nacional de Río Cuarto} \\ & \\
+
+\textsc{Febrero} 2015 & \textbf{Fundamentos de Lenguajes de Programación Cuántica} - Dr. Alejandro Díaz-Caro \\
+& \textit{Escuela de Verano de Ciencias Informáticas RIO 2015} \\
+& \textit{Universidad Nacional de Río Cuarto} \\ & \\
+
+\textsc{Febrero} 2015 & \textbf{Description Logic Reasoning} - Dr. Anni-Yasmin Turhan\\
+& \textit{Escuela de Verano de Ciencias Informáticas RIO 2015} \\
+& \textit{Universidad Nacional de Río Cuarto} \\ & \\
+
+\end{longtable}
+
+\section{Experiencia Laboral}
+\begin{tabular}{ll}
+\textsc{Abril 2015} & \textbf{Ingeniero de Software} \\
+\textsc{- Marzo 2019} & SMF Consulting S.L \\ 
+& \textit{Posición semi remota de tiempo parcial brindando soluciones basadas en la} \\
+& \textit{plataforma Openbravo ERP} \\  
+& http://smfconsulting.es \\
+& España \\ & \\
+\end{tabular}
+
+
+
+\section{Menciones}
+\begin{tabular}{rl}
+\\
+\textsc{Junio 2016} & Primer escolta en la bandera Mayor \\ & \textit{Universidad Nacional de Río Cuarto} - Argentina \\ & \\ 
+\end{tabular}
+
+\section{Idiomas}
+
+\begin{tabular}{rl}
+\\
+\textsc{Español:} & Lengua madre\\
+\textsc{Inglés:} & Fluído \\ & \\
+\end{tabular}
+\end{document}
