@@ -5,7 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 
-The Software Engineering and Formal Methods group, in which i work, specializes in formal program analysis. My research involves the use of machine learning as the main technology for solving program analysis tasks. Below are listed the projects in which I have been working on. You can navigate to the corresponding page for further details:
+The Software Engineering and Formal Methods group, in which I work, specializes in formal program analysis. My research involves the use of machine learning as the main technology for solving program analysis tasks. Below are listed the projects in which I have been working on. You can navigate to the corresponding page for further details:
 
 <div class="wrapper">
 		<a href="invariants-neuralnetworks">
