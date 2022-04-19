@@ -2,10 +2,6 @@
 permalink: /
 
 ---
-Teaching Assistant of *Computability and Complexity* at the [Department of Computing](https://dc.exa.unrc.edu.ar), [University of Rio Cuarto](https://www.unrc.edu.ar/). <br> 🏠 **Office**: A13, Departamento de Computación, FCEFQyN, Universidad Nacional de Río Cuarto. Ruta Nac. No. 36 km 601, Río Cuarto (5800), Córdoba, Argentina. <br> ✉️ **Email**: fmolina@dc.exa.unrc.edu.ar
-
-## About me
-
 I'm a Postdoc researcher at the [Software Engineering and Formal Methods group](https://mfis.dc.exa.unrc.edu.ar), at the University of Rio Cuarto, Argentina, working under the supervision of Professor [Nazareno Aguirre](https://dc.exa.unrc.edu.ar/staff/naguirre/en/Nazareno_Aguirres_Personal_Web_Page/Main.html).
 
 My main [research]({{ site.url }}{{ site.baseurl }}/research/) topic is the application of learning-based techniques to Program Analysis tasks. More precisely, my research focuses on the automated generation of formal software specifications, with the aim of improving Software Quality. 
