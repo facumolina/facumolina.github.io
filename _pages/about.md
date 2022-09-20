@@ -2,9 +2,10 @@
 permalink: /
 
 ---
+
 I'm a Postdoc researcher at the [Software Engineering and Formal Methods group](https://mfis.dc.exa.unrc.edu.ar), at the University of Rio Cuarto, Argentina, working under the supervision of Professor [Nazareno Aguirre](https://dc.exa.unrc.edu.ar/staff/naguirre/en/Nazareno_Aguirres_Personal_Web_Page/Main.html).
 
-My main [research]({{ site.url }}{{ site.baseurl }}/research/) topic is the application of learning-based techniques to Program Analysis tasks. More precisely, my research focuses on the automated generation of formal software specifications, with the aim of improving Software Quality. 
+My main [research]({{ site.url }}{{ site.baseurl }}/research/) interests are in the area of Software Testing and Analysis, with the goal of improving software reliability and quality. In 2022 I got my PhD at [FAMAF](https://www.famaf.unc.edu.ar/), University of Córdoba, where I worked on the automated generation of formal software specifications, using search-based and learning-based techniques.
 
 ## Publications
 

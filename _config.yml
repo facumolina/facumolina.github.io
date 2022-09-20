@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Facundo Molina"
 title_separator          : "-"
 name                     : &name "Facundo Molina"
-description              : &description "Personal description"
+description              : &description "My personal webpage"
 url                      : https://facumolina.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "facumolina.github.io"
@@ -81,7 +81,7 @@ analytics:
 author:
   name             : "Facundo Molina"
   avatar           : "profile.jpg"
-  bio              : "PhD UNC 2022 - Teaching Assistant, Department of Computing, University of Río Cuarto"
+  bio              : "Postdoc Researcher at Department of Computing, University of Río Cuarto"
   location         : "Río Cuarto, Argentina"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=_8J_7doAAAAJ&hl=es"
@@ -105,7 +105,7 @@ author:
   stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          : "molinaf17"
   vine             :
   weibo            :
   xing             :
