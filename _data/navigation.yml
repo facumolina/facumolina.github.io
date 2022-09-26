@@ -3,6 +3,8 @@ main:
   - title: "Research"
     url: /research/
 
+  - title: "Publications"
+    url: /publications/
     
   - title: "Talks"
     url: /talks/    
@@ -11,4 +13,4 @@ main:
     url: /teaching/    
         
   - title: "CV"
-    url: /cv/
+    url: http://facumolina.github.io/files/fmolina-fullcven.pdf
