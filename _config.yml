@@ -135,6 +135,7 @@ exclude:
   - gulpfile.js
   - LICENSE
   - log
+  - vendor
   - node_modules
   - package.json
   - Rakefile
