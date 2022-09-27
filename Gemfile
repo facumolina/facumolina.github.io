@@ -25,5 +25,5 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-scholar'
   gem 'hawkins'
-  gem 'webrick'  
+  gem 'webrick'
 end
