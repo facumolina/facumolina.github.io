@@ -3,7 +3,7 @@ permalink: /
 years: [2022, 2021]
 ---
 
-**Postdoc Researcher** at [MFIS](https://mfis.dc.exa.unrc.edu.ar), University of Rio Cuarto, Argentina.
+**Postdoc Researcher** at [MFIS](https://mfis.dc.exa.unrc.edu.ar) - University of Rio Cuarto, Argentina.
 
 I did my Ph.D. in Computer Science at [FAMAF](https://www.famaf.unc.edu.ar/), where I was advised by Professor [Nazareno Aguirre](https://dc.exa.unrc.edu.ar/staff/naguirre/en/Nazareno_Aguirres_Personal_Web_Page/Main.html). My research focus was the automated generation of formal software specifications, using search-based and learning-based techniques.
 
