@@ -3,7 +3,7 @@ permalink: /
 years: [2022, 2021]
 ---
 
-**Postdoc researcher** \| [Software Engineering and Formal Methods group](https://mfis.dc.exa.unrc.edu.ar) \| University of Rio Cuarto, Argentina.
+**Postdoc Researcher** \| [Software Engineering and Formal Methods group](https://mfis.dc.exa.unrc.edu.ar) \| University of Rio Cuarto, Argentina.
 
 I got my Ph.D. in Computer Science in 2022 at [FAMAF](https://www.famaf.unc.edu.ar/), University of Córdoba. My research focus was the automated generation of formal software specifications, using search-based and learning-based techniques, and I worked under the supervision of Professor [Nazareno Aguirre](https://dc.exa.unrc.edu.ar/staff/naguirre/en/Nazareno_Aguirres_Personal_Web_Page/Main.html).
 
