@@ -4,7 +4,7 @@ permalink: /research/
 author_profile: true
 ---
 
-At [MFIS](https://mfis.dc.exa.unrc.edu.ar), our research group, we specialize in formal program analysis. My research involves the use of machine learning and evolutionary computation as the main technologies for addressing program analysis tasks. These are the projects I have been working on:
+During my Ph.D. I was part of [MFIS](https://mfis.dc.exa.unrc.edu.ar), where we specialized in formal program analysis. My research involved the use of machine learning and evolutionary computation as the main technologies for addressing program analysis tasks. These are the projects I worked on:
 
 <div class="wrapper">
 		<a href="invariants-neuralnetworks">
