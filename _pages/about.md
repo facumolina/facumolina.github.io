@@ -2,7 +2,7 @@
 permalink: /
 ---
 
-**Post-doctoral Researcher** at the [IMDEA Software Institute](https://software.imdea.org/) - Madrid, Spain.
+**Postdoctoral Researcher** at the [IMDEA Software Institute](https://software.imdea.org/) - Madrid, Spain.
 
 I obtained my Ph.D. in Computer Science at [FAMAF](https://www.famaf.unc.edu.ar/), where I was advised by Professor [Nazareno Aguirre](https://dc.exa.unrc.edu.ar/staff/naguirre/en/Nazareno_Aguirres_Personal_Web_Page/Main.html). My research focus was the automated generation of formal software specifications, using search-based and learning-based techniques.
 
