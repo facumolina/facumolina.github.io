@@ -80,7 +80,7 @@ analytics:
 # Site Author
 author:
   name             : "Facundo Molina"
-  avatar           : "profile.jpg"
+  avatar           : "profile.png"
   bio              : "Postdoctoral Researcher - Software Testing and Analysis"
   location         : "Madrid, Spain"
   employer         :
