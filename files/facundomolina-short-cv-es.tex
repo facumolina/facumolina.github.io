@@ -1,0 +1,224 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{amsfonts}
+\usepackage{longtable}
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titleformat{\subsection}{\large\scshape\raggedright}{}{1em}{\underline}[] % Text formatting of subsections
+\titlespacing{\section}{0pt}{3pt}{5pt} % Spacing around sections
+\titlespacing{\subsection}{0pt}{10pt}{2pt} % Spacing around subsections
+\usepackage{graphicx}
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+{\raggedleft{\Huge Facundo \textsc{Molina}}} \\
+\textit{Investigador Postdoctoral} \\
+\textsc{Email:} \href{mailto:facundo.molina@imdea.org}{facundo.molina@imdea.org} \\
+\textsc{Website:} \href{https://facumolina.github.io}{https://facumolina.github.io}
+
+\section{Experiencia Laboral}
+
+\begin{tabular}{rl}
+\\
+\textsc{Desde 2022}	& \textbf{Investigador Postdoctoral} \\
+& \textit{IMDEA Software Institute}, Madrid, España. \\
+
+\textsc{2018 - 2022} & \textbf{Asistente Docente} \\ 
+& \textit{Departamento de Computación, Universidad Nacional de Río Cuarto}, Argentina. \\
+
+\textsc{2014 - 2017} & \textbf{Asistente Docente (estudiante)} \\
+& \textit{Departamento de Computación, Universidad Nacional de Río Cuarto}, Argentina. \\
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Educación}
+
+\begin{tabular}{rl}
+\\
+\textsc{2017 - 2022}	& \textbf{Doctor en Ciencias de la Computación} \\
+& \textit{Facultad de Matemática, Astronomía, Física y Computación, Universidad Nacional} \\ 
+& \textit{de Córdoba}, Argentina. \\
+
+\textsc{2012 - 2017}	& \textbf{Licenciado en Ciencias de la Computación} (5 años + tesis) \\
+& \textit{Departamento de Ciencias de la Computación, Universidad Nacional de Río Cuarto}, \\
+& Argentina. Promedio: 9.43. \\
+
+\textsc{2012 - 2014}	& \textbf{Analista en Computación} (3 años + proyecto final) \\
+& \textit{Departamento de Computación, Universidad Nacional de Río Cuarto}, \\ 
+& Argentina. Promedio: 9.33. \\
+
+\end{tabular}
+
+\section{Publicaciones}
+\begin{longtable}{rl}
+
+\textsc{Noviembre} 2022  & \textbf{Learning to Prune Infeasible Paths in Generalized Symbolic Execution} \\
+& F. Molina, P. Ponzio, N. Aguirre and M. Frias. \textit{{IEEE} 33rd International Symposium} \\
+& \textit{on Software Reliability, {ISSRE} 2022, Charlotte, USA.} \\
+
+\textsc{Mayo} 2022  & \textbf{Fuzzing Class Specifications}. F. Molina, M. d'Amorim and N. Aguirre. \\
+& \textit{ACM/IEEE 44th International Conference on Software Engineering, ICSE 2022,} \\
+& \textit{Pittsburgh, USA.} \\
+
+\textsc{Mayo} 2021  & \textbf{EvoSpex: An Evolutionary Algorithm for Learning Postconditions} \\
+& F. Molina, P. Ponzio, N. Aguirre and M. Frias. \textit{ACM/IEEE International Conference} \\
+& \textit{on Software Engineering, ICSE 2021, Madrid, Spain.} \\
+
+\textsc{Septiembre} 2020  & \textbf{Applying Learning Techniques to Oracle Synthesis}. F. Molina. \\
+& \textit{Doctoral Symposium, {IEEE/ACM} 35th International Conference on Automated} \\
+& \textit{Software Engineering, ASE 2020, Australia.} \\
+
+\textsc{Julio} 2019  & \textbf{An Evolutionary Approach to Translating Operational Specifications} \\ 
+& \textbf{into Declarative Specifications}. F. Molina, C. Cornejo, R. Degiovanni, \\ 
+& G. Regis, P. Castro, N. Aguirre and M. Frias. \textit{Science of Computer Programming 2019.} \\
+
+\textsc{Mayo} 2019  & \textbf{Training Binary Classifiers as Data Structure Invariants} \\ 
+& F. Molina, P. Ponzio, R. Degiovanni, G. Regis, N. Aguirre and M. Frias \\ 
+& \textit{International Conference on Software Engineering, ICSE 2019, Montreal, Canada.} \\
+
+\textsc{Septiembre} 2018  & \textbf{A Genetic Algorithm for Goal-Conflict Identification} \\
+& R. Degiovanni, F. Molina, G. Regis and N. Aguirre. \textit{{ACM/IEEE} 33rd International} \\
+& \textit{Conference on Automated Software Engineering, ASE 2018, Montpellier, France.} \\
+
+\textsc{Mayo} 2018 & \textbf{From Operational to Declarative Specifications using a Genetic Algorithm} \\ 
+& F. Molina, R. Degiovanni, G. Regis, P. Castro, N. Aguirre and M. Frias. \textit{11th International}\\
+& \textit{Workshop on Search-Based Software Testing, SBST@ICSE 2018, Gothenburg, Sweden.} \\
+
+\textsc{Noviembre} 2016 & \textbf{An Evolutionary Approach to Translate Operational Specifications into} \\ 
+& \textbf{Declarative Specifications}. F. Molina, C. Cornejo, R. Degiovanni, G. Regis, \\ 
+& P. Castro, N. Aguirre and M. Frias. \textit{19th Brazilian Symposium on Formal Methods,} \\ 
+& \textit{SBMF 2016, Natal, Brazil.} \\
+
+\end{longtable}
+
+%\section{Recent Funding}
+%\begin{longtable}{rl}
+
+%\textsc{2022} & \textbf{Modular Bounded Verification with Expressive Contracts} \\
+%& \textit{Amazon Research Awards ARA 2022. Amazon program providing unrestricted funds} \\ 
+%& \textit{and AWS Promotional Credits to academic researchers.} \\
+%& Principal Investigator: Marcelo Frias. \\
+
+%\end{longtable}
+
+\section{Software}
+
+\begin{longtable}{rl}
+\textsc{ISSRE 2022} & \textbf{\url{https://sites.google.com/view/learning-symbolic-invariants}} \\
+& \textit{Técnica de aprendizaje automático para aprender a podar caminos inviables} \\
+& \textit{en ejecución simbólica generalizada, presenteada en ISSRE 2022.} \\
+
+\textsc{ICSE 2022} & \textbf{SpecFuzzer: \url{https://sites.google.com/view/specfuzzer}} \\
+& \textit{Técnica basada en fuzzing para inferir especificaciones de clase, presentada en ICSE 2022.} \\
+
+\textsc{ICSE 2021} & \textbf{EvoSpex: \url{https://sites.google.com/view/evospex}} \\
+& \textit{Algoritmo evolutivo para aprender post-condiciones de métodos Java, presentado en ICSE 2021.} \\
+
+\textsc{ICSE 2019} & \textbf{\url{https://sites.google.com/site/learninginvariants}} \\
+& \textit{Técnica para entrenar modelos de aprendizaje automático para capturar invariantes de} \\ 
+& \textit{estructuras de datos, presentada en ICSE 2019.} \\
+
+\end{longtable}
+
+\section{Servicios}
+
+\begin{longtable}{rl}
+\textsc{2021}   & \textbf{Comité de Programa} \\
+& \textit{1st International Workshop on Test Oracles, TORACLE 2021 (at ESEC/FSE 2021).} \\
+
+\textsc{2017 - 2022} & \textbf{Estudiante Voluntario} \\
+& \textit{International Conference on Software Engineering - ICSE 2017, ICSE 2019,} \\
+& \textit{ICSE 2021, ICSE 2022.} \\
+& \textit{International Conference on Automated Software Engineering - ASE 2018.} \\
+
+\end{longtable}
+
+\section{Premios \& Distinciones}
+\begin{longtable}{rl}
+
+\textsc{2020} & \textbf{Latin America PhD Award} \\
+& \textit{Premio a estudiantes de doctorado de universidades de América Latina, otorgado} \\
+& \textit{por Microsoft Research.} \\
+
+\textsc{2018} & \textbf{Best Paper Award} \\
+& \textit{From Operational to Declarative Specifications using a Genetic Algorithm, 11th} \\
+& \textit{International Workshop on Search-Based Software Testing, SBST 2018.} \\
+
+\textsc{2016} & \textbf{Best Paper Award} \\
+& \textit{An Evolutionary Approach to Translate Operational Specifications into } \\
+& \textit{Declarative Specifications, 19th Brazilian Symposium on Formal Methods, SBMF 2016.} \\
+
+\textsc{2016} & \textbf{Escolta de la bandera de la Universidad Nacional de Río Cuarto} \\
+& \textit{Honor tradicional en instituciones educativas de Argentina otorgado a los tres estudiantes} \\
+& \textit{más sobresalientes de la institución.} \\
+
+\end{longtable}
+
+\section{Becas \& Subvenciones}
+\begin{longtable}{rl}
+
+\textsc{2017} & \textbf{Beca Doctoral} \\
+& \textit{Beca de 5 años otorgada por el Consejo Nacional de Investigaciones Científicas y Técnicas} \\
+& \textit{(CONICET) de Argentina, para financiar a estudiantes de doctorado.} \\
+
+\textsc{2016} & \textbf{Beca EVC-CIN} \\
+& \textit{Beca de 1 año otorgada por el Consejo Interuniversitario Nacional (CIN) de Argentina, } \\
+& \textit{para animar a los estudiantes de grado a seguir vocaciones científicas.} \\
+
+\end{longtable}
+
+\section{Idiomas}
+
+\begin{tabular}{rl}
+
+\textsc{Español:} & lengua madre \\
+\textsc{Inglés:} & fluído \\
+
+\end{tabular}
+
+\end{document}
