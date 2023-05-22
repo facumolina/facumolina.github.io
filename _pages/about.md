@@ -101,7 +101,7 @@ This is a list of my latest/most relevant publications. The full list can be fou
 * [Nazareno Aguirre](https://dc.exa.unrc.edu.ar/staff/naguirre) (UNRC, Argentina - former PhD advisor)
 * [Renzo Degiovanni](https://rdegiovanni.github.io/) (SnT, Luxembourg)
 * [Marcelo d'Amorim](https://damorim.github.io/) (NCSU, USA)
-* Pablo Ponzio (UNRC, Argentina - collaborator)
+* Pablo Ponzio (UNRC, Argentina)
 <br>
 
 **PhD students**
