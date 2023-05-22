@@ -4,7 +4,7 @@ permalink: /
 
 I work at the [IMDEA Software Institute](https://software.imdea.org/) as a **Postdoctoral Researcher**, under the supervision of [Alessandra Gorla](https://software.imdea.org/~alessandra.gorla/). My main research interests are in the area of Software Testing and Analysis, with the goal of improving software reliability and quality.
 
-In April 2022, I received my Ph.D. at [FAMAF](https://www.famaf.unc.edu.ar/), University of Córdoba (UNC), where I was advised by Professor [Nazareno Aguirre](https://dc.exa.unrc.edu.ar/staff/naguirre/en/Nazareno_Aguirres_Personal_Web_Page/Main.html). My research focused on the **automated generation of test oracles**, in the form of class invariants and postconditions. Particulary, my work involved the use of search-based and learning-based techniques with the goal of obtaining precise oracles. My dissertation is available in the UNC [digital repository](https://rdu.unc.edu.ar/handle/11086/26692).
+In April 2022, I received my Ph.D. at [FAMAF](https://www.famaf.unc.edu.ar/), University of Córdoba (UNC), where I was advised by Professor [Nazareno Aguirre](https://dc.exa.unrc.edu.ar/staff/naguirre). My research focused on the **automated generation of test oracles**, in the form of class invariants and postconditions. Particulary, my work involved the use of search-based and learning-based techniques with the goal of obtaining precise oracles. My dissertation is available in the UNC [digital repository](https://rdu.unc.edu.ar/handle/11086/26692).
 
 ## Projects
 
@@ -93,6 +93,24 @@ This is a list of my latest/most relevant publications. The full list can be fou
 <a href="https://dc.exa.unrc.edu.ar/staff/naguirre/papers/icse2019.pdf">.pdf</a>&nbsp;]
 
 </p>
+
+## Research Team
+
+**Researchers**
+* [Alessandra Gorla](https://software.imdea.org/~alessandra.gorla/) (IMDEA, Spain - current supervisor)
+* [Nazareno Aguirre](https://dc.exa.unrc.edu.ar/staff/naguirre) (UNRC, Argentina - former PhD advisor)
+* [Renzo Degiovanni](https://rdegiovanni.github.io/) (SnT, Luxembourg)
+* [Marcelo d'Amorim](https://damorim.github.io/) (NCSU, USA)
+* Pablo Ponzio (UNRC, Argentina - collaborator)
+<br>
+
+**PhD students**
+* [Juan Manuel Copia](https://www.linkedin.com/in/juancopia/) (IMDEA, Spain - collaborator)
+<br>
+
+**Undergraduate Students**
+* [Agustín Nolasco](https://agusnolasco.github.io/) (UNRC, Argentina): working on metamorphic testing.
+* [Claudio Dosantos](https://ar.linkedin.com/in/claudio-dosantos) (UNRC, Argentina): working on oracle effectiveness.
 
 ## Service
 
