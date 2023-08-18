@@ -4,7 +4,7 @@ permalink: /
 
 I work at the [IMDEA Software Institute](https://software.imdea.org/) as a **Postdoctoral Researcher**, under the supervision of [Alessandra Gorla](https://software.imdea.org/~alessandra.gorla/). My main research interests are in the area of Software Testing and Analysis, with the goal of improving software reliability and quality.
 
-In April 2022, I received my Ph.D. at [FAMAF](https://www.famaf.unc.edu.ar/), University of Córdoba (UNC), where I was advised by Professor [Nazareno Aguirre](https://dc.exa.unrc.edu.ar/staff/naguirre). My research focused on the **automated generation of test oracles**, in the form of class invariants and postconditions. Particulary, my work involved the use of search-based and learning-based techniques with the goal of obtaining precise oracles. My dissertation is available in the UNC [digital repository](https://rdu.unc.edu.ar/handle/11086/26692).
+In April 2022, I received my Ph.D. at [FAMAF](https://www.famaf.unc.edu.ar/), University of Córdoba (UNC), where I was advised by Professor [Nazareno Aguirre](https://dc.exa.unrc.edu.ar/staff/naguirre). My research focused on the **automated generation of test oracles**, in the form of class invariants and postconditions. Particularly, my work involved the use of search-based and learning-based techniques with the goal of obtaining precise oracles. My dissertation is available in the UNC [digital repository](https://rdu.unc.edu.ar/handle/11086/26692).
 
 ## Projects
 
