@@ -15,7 +15,7 @@ In April 2022, I received my Ph.D. at [FAMAF](https://www.famaf.unc.edu.ar/), Un
 				<img src="{{ site.url }}{{ site.baseurl }}/images/specfuzzer-pic.png">
 			</div>
 		</td>
-		<td align="justify" style="border: none"><a href="https://sites.google.com/view/specfuzzer">SpecFuzzer</a> is a technique that automatically infers test oracles in the form of class specifications (postconditions, invariants). SpecFuzzer uses a fuzzer as a generator of candidate assertions derived from a grammar that is automatically obtained from the class definition; a dynamic invariant detector –Daikon– to filter out assertions invalidated by a test suite; and a mutation-based mechanism to cluster and rank assertions, so that similar constraints are grouped and then the stronger prioritized.
+		<td align="justify" style="border: none"><a href="https://github.com/facumolina/specfuzzer">SpecFuzzer</a> is a tool that automatically infers test oracles in the form of class specifications (postconditions, invariants). SpecFuzzer uses a fuzzer as a generator of candidate assertions derived from a grammar that is automatically obtained from the class definition; a dynamic invariant detector –Daikon– to filter out assertions invalidated by a test suite; and a mutation-based mechanism to cluster and rank assertions, so that similar constraints are grouped and then the stronger prioritized.
 		</td>
 	</tr>
 	<tr style="border: none;">
