@@ -39,17 +39,24 @@ In April 2022, I received my Ph.D. at [FAMAF](https://www.famaf.unc.edu.ar/), Un
 ## Publications
 This is a list of my latest/most relevant publications. The full list can be found in my <a href="https://dblp.org/pid/189/6361.html">dblp</a> or <a href="https://scholar.google.com/citations?user=_8J_7doAAAAJ">google scholar</a>. 
 
-<p><a name="fase2023"></a>
+<p><a name="issre-garg-2023"></a>
 
-<b>Efficient bounded exhaustive input generation from program APIs</b> by Mariano Politano, Valeria Bengolea, Facundo Molina, Nazareno Aguirre, Marcelo Frias, and Pablo Ponzio. To appear in <em>Fundamental Approaches to Software Engineering - 26th International Conference, FASE 2023, Held as Part of the European Joint Conferences on Theory and Practice of Software, ETAPS 2023, Paris, France, April 22-27</em>, 2023.
-[&nbsp;<a href="https://zenodo.org/record/7508833">code</a>&nbsp;|
-<a href="https://link.springer.com/chapter/10.1007/978-3-031-30826-0_6">https</a>&nbsp;|
-<a href="https://nmaguirre.github.io/assets/pdf/fase2023b.pdf">.pdf</a>&nbsp;]
+<b>Enabling Efficient Assertion Inference</b> by Aayush Garg, Renzo Degiovanni, Facundo Molina, Maxime Cordy, Nazareno Aguirre, Mike Papadakis, and Yves&nbsp;Le Traon. In <em>34th IEEE International Symposium on Software Reliability Engineering, ISSRE 2023, Florence, Italy, October 9-12, 2023</em>, 2023.
+[&nbsp;<a href="https://github.com/garghub/seeker">code</a>&nbsp;|
+<a href="https://nmaguirre.github.io/assets/pdf/issre2023a.pdf">.pdf</a>&nbsp;]
+</p>
+
+<p><a name="issre-copia-2023"></a>
+
+<b>Precise Lazy Initialization for Programs with Complex Heap Inputs</b> by Juan Manuel Copia, Facundo Molina, Nazareno Aguirre, Marcelo Frias, Alessandra Gorla, and Pablo Ponzio. In <em>34th IEEE International Symposium on Software Reliability Engineering, ISSRE 2023, Florence, Italy, October 9-12, 2023</em>, 2023.
+[&nbsp;<a href="https://github.com/JuanmaCopia/spf-pli">code</a>&nbsp;|
+<a href="https://nmaguirre.github.io/assets/pdf/issre2023b.pdf">.pdf</a>&nbsp;]
+
 </p>
 
 <p><a name="DBLP:conf/issre/Molina22"></a>
 
-<b>Learning to prune infeasible paths in generalized symbolic execution</b> by Facundo Molina, Pablo Ponzio, Nazareno Aguirre, and Marcelo&nbsp;F. Frias. In <em>33rd IEEE International Symposium on Software
+<b>Learning to Prune Infeasible Paths in Generalized Symbolic Execution</b> by Facundo Molina, Pablo Ponzio, Nazareno Aguirre, and Marcelo&nbsp;F. Frias. In <em>33rd IEEE International Symposium on Software
   Reliability Engineering, ISSRE 2022, Charlotte, NC, USA, October
   31-November 3, 2022</em>, 2022.
 [&nbsp;<a href="https://sites.google.com/view/learning-symbolic-invariants">code</a>&nbsp;|
@@ -59,7 +66,7 @@ This is a list of my latest/most relevant publications. The full list can be fou
 
 <p><a name="DBLP:conf/icse/MolinadA22"></a>
 
-<b>Fuzzing class specifications</b> by Facundo Molina, Marcelo d'Amorim, and Nazareno Aguirre.
+<b>Fuzzing Class Specifications</b> by Facundo Molina, Marcelo d'Amorim, and Nazareno Aguirre.
  In <em>44th IEEE/ACM 44th International Conference on Software
   Engineering, ICSE 2022, Pittsburgh, PA, USA, May 25-27, 2022</em>, pages
   1008&ndash;1020. ACM, 2022.
@@ -72,7 +79,7 @@ This is a list of my latest/most relevant publications. The full list can be fou
 
 <p><a name="DBLP:conf/icse/MolinaPAF21"></a>
 
- <b>Evospex: An evolutionary algorithm for learning postconditions</b> by Facundo Molina, Pablo Ponzio, Nazareno Aguirre, and Marcelo&nbsp;F. Frias.
+ <b>EvoSpex: An Evolutionary Algorithm for Learning Postconditions</b> by Facundo Molina, Pablo Ponzio, Nazareno Aguirre, and Marcelo&nbsp;F. Frias.
  In <em>43rd IEEE/ACM International Conference on Software
   Engineering, ICSE 2021, Madrid, Spain, 22-30 May 2021</em>, pages 1223&ndash;1235.
   IEEE, 2021.
@@ -86,7 +93,7 @@ This is a list of my latest/most relevant publications. The full list can be fou
 <p><a name="DBLP:conf/icse/MolinaDPRAF19"></a>
 
 
- <b>Training binary classifiers as data structure invariants</b> by Facundo Molina, Renzo Degiovanni, Pablo Ponzio, Germ&aacute;n Regis, Nazareno
+ <b>Training Binary Classifiers as Data Structure Invariants</b> by Facundo Molina, Renzo Degiovanni, Pablo Ponzio, Germ&aacute;n Regis, Nazareno
   Aguirre, and Marcelo&nbsp;F. Frias. In <em> Proceedings of the 41st International Conference on Software Engineering, ICSE 2019, Montreal, QC, Canada, May 25-31, 2019</em>, pages 759&ndash;770. IEEE / ACM, 2019.
 [&nbsp;<a href="https://sites.google.com/site/learninginvariants">code</a>&nbsp;|
 <a href="https://doi.org/10.1109/ICSE.2019.00084">https</a>&nbsp;|
