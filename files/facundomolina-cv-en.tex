@@ -225,6 +225,32 @@
 
 \end{longtable}
 
+\section{Research Prototypes}
+\begin{longtable}{rl}
+
+%\textbf{FixCheck} & FixCheck is a tool \\ & \\
+
+\textbf{SpecFuzzer} & SpecFuzzer is a tool that automatically infers test oracles in the form of class specifica-\\ 
+& tions (postconditions, invariants), and works for Java classes. SpecFuzzer uses a fuzzer \\
+& as a generator of candidate assertions derived from a grammar that is automatically \\
+& obtained from the class definition; a dynamic invariant detector –Daikon– to filter out \\
+& assertions invalidated by a test suite; and a mutation-based mechanism to cluster and \\
+& rank assertions, so that similar constraints are grouped and then the stronger prioritized. \\ 
+& SpecFuzzer is available at: \href{https://github.com/facumolina/specfuzzer}{https://github.com/facumolina/specfuzzer} \\ & \\
+
+
+\textbf{EvoSpex} & EvoSpex is a tool that, given a Java method, uses an evolutionary algorithm to produce \\ 
+& a specification of the method's current behavior, in the form of postcondition assertions. \\
+& EvoSpex is available at: \href{https://github.com/facumolina/evospex}{https://github.com/facumolina/evospex} \\ & \\
+
+\textbf{PLI} & PLI is an efficient symbolic execution approach for programs that manipulate complex \\
+& heap-allocated data structures with rich structural constraints. PLI works for Java, \\
+& and allows preconditions to be specified as standard operational predicates for concrete \\
+& structures, eliminating the need for additional specifications tailored to symbolic heaps. \\
+& PLI is available at: \href{https://github.com/JuanmaCopia/spf-pli}{https://github.com/JuanmaCopia/spf-pli} \\ & \\
+
+\end{longtable}
+
 \section{Teaching Background}
 \begin{longtable}{rl}
 
