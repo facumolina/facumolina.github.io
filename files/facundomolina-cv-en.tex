@@ -121,6 +121,16 @@
         & \textit{IEEE 34th International Symposium on Software Reliability Engineering,} \\
         & \textit{ISSRE 2023, Florence, Italy, October 9 - 12, 2023.} \\ & \\
 
+\textsc{September} 2023  & \textbf{SpecFuzzer: A Tool for Inferring Class Specifications via Grammar} \\
+        & \textbf{Based Fuzzing} - Facundo Molina, Nazareno Aguirre and Marcelo d'Amorim \\
+        & \textit{IEEE/ACM 38th International Conference on Automated Software Engineering,} \\
+        & \textit{ASE 2023, Luxembourg, September 11 - 15, 2023.} \\ & \\
+
+\textsc{July} 2023  & \textbf{EvoSpex: A Search-based Tool for Postcondition Inference} \\
+& Facundo Molina, Pablo Ponzio, Nazareno Aguirre and Marcelo F. Frias. \\
+& \textit{ACM SIGSOFT 32nd International Symposium on Software Testing and Analysis,} \\
+& \textit{ISSTA 2023, Seattle, USA, July 17 - 21, 2023.} \\ & \\
+
 \textsc{April} 2023  & \textbf{Efficient Bounded Exhaustive Input Generation from Program APIs} \\
         & Mariano Politano, Valeria Bengolea, Facundo Molina, Marcelo F. Frias,\\
         & Nazareno Aguirre, and Pablo Ponzio. \\
@@ -138,7 +148,7 @@
 	& \textit{on Software Engineering, ICSE 2022, Pittsburgh, USA, May 22-27, 2022.} \\ & \\
 
 \textsc{May} 2021  & \textbf{EvoSpex: An Evolutionary Algorithm for Learning Postconditions} \\
-& Facundo Molina, Pablo Ponzio, Nazareno Aguirre and Marcelo Frias. \\
+& Facundo Molina, Pablo Ponzio, Nazareno Aguirre and Marcelo F. Frias. \\
 & \textit{Proceedings of the 43rd ACM/IEEE International Conference} \\
 & \textit{on Software Engineering, ICSE 2021, Madrid, Spain, May 23-29, 2021.} \\ & \\
 
@@ -232,8 +242,7 @@
 
 \textbf{SpecFuzzer} & SpecFuzzer is a tool that automatically infers test oracles in the form of class specifica-\\ 
 & tions (postconditions, invariants), and works for Java classes. SpecFuzzer uses a fuzzer \\
-& as a generator of candidate assertions derived from a grammar that is automatically \\
-& obtained from the class definition; a dynamic invariant detector –Daikon– to filter out \\
+& as a generator of candidate assertions; a dynamic invariant detector –Daikon– to filter out \\
 & assertions invalidated by a test suite; and a mutation-based mechanism to cluster and \\
 & rank assertions, so that similar constraints are grouped and then the stronger prioritized. \\ 
 & SpecFuzzer is available at: \href{https://github.com/facumolina/specfuzzer}{https://github.com/facumolina/specfuzzer} \\ & \\
@@ -241,6 +250,8 @@
 
 \textbf{EvoSpex} & EvoSpex is a tool that, given a Java method, uses an evolutionary algorithm to produce \\ 
 & a specification of the method's current behavior, in the form of postcondition assertions. \\
+& EvoSpex implements a classic genetic algorithm that searches for a succinct postcondition that \\ 
+& accepts the current method behavior, while rejecting any deviation from such behavior. \\ 
 & EvoSpex is available at: \href{https://github.com/facumolina/evospex}{https://github.com/facumolina/evospex} \\ & \\
 
 \textbf{PLI} & PLI is an efficient symbolic execution approach for programs that manipulate complex \\
@@ -249,6 +260,60 @@
 & structures, eliminating the need for additional specifications tailored to symbolic heaps. \\
 & PLI is available at: \href{https://github.com/JuanmaCopia/spf-pli}{https://github.com/JuanmaCopia/spf-pli} \\ & \\
 
+\end{longtable}
+
+\section{Research Grants \& Scholarships}
+\begin{longtable}{rl}
+
+\textsc{2017} & \textbf{Doctoral Scholarship} \\ 
+& \textit{5-year Scholarship granted by Argentina's National Scientific and Technical Research} \\
+& \textit{Council (CONICET) to fund doctoral students.} \\ & \\
+
+\textsc{2016} & \textbf{EVC-CIN Scholarship} \\ 
+& \textit{1-year Scolarship granted by the argentinian National Inter University Council (CIN)} \\
+& \textit{to encourage undergraduate students to pursue scientific vocations.} \\ & \\
+
+\end{longtable}
+
+\section{Participation in Funded Research Projects}
+\begin{longtable}{rl}
+
+\textsc{11/2023-02/2024} & \textbf{ANZEN: Model-based Safety Analysis through Formal Verification.} \\ 
+& This project is a collaboration between IMDEA and Anzen Aerospace \\
+& Engineering, SL to explore the use of formal verification tools in the context \\
+& of model-based safety analysis. I participate as part of the team from IMDEA Software. \\ & \\
+
+\textsc{09/2023-08/2027} & \textbf{ESPADA: Efficient and Secure Data Protection Against Digital Attack.} \\ 
+& Project lead by Juan Caballero and Alessandra Gorla, granted by the spanish \\ 
+& Ministerio de Ciencia e Innovación, co-funded by European Union ESF, EIE \\
+& and NextGeneration funds. I participate as a member of the research team. \\ & \\
+
+\textsc{12/2022-11/2024} & \textbf{PRODIGY: Asegurando la seguridad, escalabilidad y funcionalidad} \\
+& \textbf{de los sistemas digitales de procedencia.} \\ 
+& Project lead by Juan Caballero y Pedro Moreno-Sánchez, granted by the spanish \\
+& Ministerio de Ciencia e Innovación, and co-funded by European Union ESF, EIE \\
+& and NextGeneration funds. I participate as a member of the research team. \\ & \\
+
+\end{longtable}
+
+\section{Honors \& Awards}
+\begin{longtable}{rl}
+
+\textsc{2020} & \textbf{Latin America PhD Award} \\
+& \textit{A research award for PhD students in computing related fields in their 3rd year} \\
+& \textit{or beyond at universities in Latin America, and granted by Microsoft Research.} \\ & \\
+
+\textsc{2018} & \textbf{Best Paper Award} \\ 
+& \textit{From Operational to Declarative Specifications using a Genetic Algorithm} \\
+& \textit{11th International Workshop on Search-Based Software Testing, SBST 2018.} \\ & \\
+
+\textsc{2016} & \textbf{Best Paper Award} \\ 
+& \textit{An Evolutionary Approach to Translate Operational Specifications into } \\
+& \textit{Declarative Specifications, 19th Brazilian Symposium on Formal Methods, SBMF 2016.} \\ & \\
+
+\textsc{2016} & \textbf{University of Rio Cuarto flag bearer for a 1-year period} \\ 
+& \textit{Traditional honour in educational institutions in Argentina to the three top students} \\ 
+& \textit{in the institution.} \\ & \\
 \end{longtable}
 
 \section{Teaching Background}
@@ -271,15 +336,15 @@
 \section{Supervised Students}
 \begin{longtable}{rl}
 
-\textsc{2023 - Present} & \textbf{Agustin Nolasco} - \textit{Bachelor student} - University of Río Cuarto, Argentina. \\ 
+\textsc{2023 - Present} & \textbf{Agustin Nolasco} - \textit{Undergraduate student} - University of Río Cuarto, Argentina. \\ 
 & Agustin's thesis presents a new technique for the inference of metamorphic oracles, \\ 
 & based on runtime analysis, grammar-based fuzzing and SAT solving. \\ & \\
 
-\textsc{2023 - Present} & \textbf{Claudio Dosantos} - \textit{Bachelor student} - University of Río Cuarto, Argentina. \\
+\textsc{2023 - Present} & \textbf{Claudio Dosantos} - \textit{Undergraduate student} - University of Río Cuarto, Argentina. \\
 & Claudio's thesis aims to analyze the effectiveness of regression testing when using \\ 
 & different kind of oracles, such as unit assertions and contracts. \\ & \\
 
-\textsc{2023 - Present} & \textbf{Ignacio Gonzalez} - \textit{Bachelor student} - University of Río Cuarto, Argentina. \\
+\textsc{2023 - Present} & \textbf{Ignacio Gonzalez} - \textit{Undergraduate student} - University of Río Cuarto, Argentina. \\
 & Automated test generation tools play a crucial role on dynamic specification inference \\ 
 & techniques. Ignacio's work aims at studying how different test generation approaches \\ 
 & affects the effectiveness of specification inference techniques. \\ & \\
@@ -307,39 +372,6 @@
 & \textit{International Conference on Software Engineering, ICSE 2017.} \\ & \\
 
 \end{longtable}
-
-\section{Awards \& Distinctions}
-\begin{longtable}{rl}
-\\
-\textsc{2020} & \textbf{Latin America PhD Award} \\
-& \textit{A research award for PhD students in computing related fields in their 3rd year} \\
-& \textit{or beyond at universities in Latin America, and granted by Microsoft Research.} \\ & \\
-
-\textsc{2018} & \textbf{Best Paper Award} \\ 
-& \textit{From Operational to Declarative Specifications using a Genetic Algorithm} \\
-& \textit{11th International Workshop on Search-Based Software Testing, SBST 2018.} \\ & \\
-
-\textsc{2016} & \textbf{Best Paper Award} \\ 
-& \textit{An Evolutionary Approach to Translate Operational Specifications into } \\
-& \textit{Declarative Specifications, 19th Brazilian Symposium on Formal Methods, SBMF 2016.} \\ & \\
-
-\textsc{2016} & \textbf{University of Rio Cuarto flag bearer for a 1-year period} \\ 
-& \textit{Traditional honour in educational institutions in Argentina to the three top students} \\ 
-& \textit{in the institution.} \\ & \\
-\end{longtable}
-
-\section{Grants \& Scholarships}
-\begin{tabular}{rl}
-\\
-\textsc{2017} & \textbf{Doctoral Scholarship} \\ 
-& \textit{5-year Scholarship granted by Argentina's National Scientific and Technical Research} \\
-& \textit{Council (CONICET) to fund doctoral students.} \\ & \\
-
-\textsc{2016} & \textbf{EVC-CIN Scholarship} \\ 
-& \textit{1-year Scolarship granted by the argentinian National Inter University Council (CIN)} \\
-& \textit{to encourage undergraduate students to pursue scientific vocations.} \\ & \\
-
-\end{tabular}
 
 \section{Extracurricular Courses Taken}
 \begin{longtable}{rl}
