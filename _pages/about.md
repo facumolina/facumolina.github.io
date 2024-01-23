@@ -39,16 +39,23 @@ In April 2022, I received my Ph.D. at [FAMAF](https://www.famaf.unc.edu.ar/), Un
 ## Publications
 This is a list of my latest/most relevant publications. The full list can be found in my <a href="https://dblp.org/pid/189/6361.html">dblp</a> or <a href="https://scholar.google.com/citations?user=_8J_7doAAAAJ">google scholar</a>. 
 
+<p><a name="icst-molina-2024"></a>
+
+<b>Improving Patch Correctness Analysis via Random Testing and Large Language Models</b> by Facundo Molina, Juan Manuel Copia and Alessandra Gorla. To appear in <em>17th IEEE International Conference on Software Testing, Verification and Validation, ICST 2024, Toronto, Canada, May 27-31</em>, 2024.
+[&nbsp;<a href="https://zenodo.org/records/10498174">code</a>&nbsp;|
+<a href="https://facumolina.github.io/files/MOLINA_ETAL_ICST2024.pdf">.pdf</a>&nbsp;]
+</p>
+
 <p><a name="issre-garg-2023"></a>
 
-<b>Enabling Efficient Assertion Inference</b> by Aayush Garg, Renzo Degiovanni, Facundo Molina, Maxime Cordy, Nazareno Aguirre, Mike Papadakis, and Yves&nbsp;Le Traon. In <em>34th IEEE International Symposium on Software Reliability Engineering, ISSRE 2023, Florence, Italy, October 9-12, 2023</em>, 2023.
+<b>Enabling Efficient Assertion Inference</b> by Aayush Garg, Renzo Degiovanni, Facundo Molina, Maxime Cordy, Nazareno Aguirre, Mike Papadakis, and Yves&nbsp;Le Traon. In <em>34th IEEE International Symposium on Software Reliability Engineering, ISSRE 2023, Florence, Italy, October 9-12</em>, 2023.
 [&nbsp;<a href="https://github.com/garghub/seeker">code</a>&nbsp;|
 <a href="https://nmaguirre.github.io/assets/pdf/issre2023a.pdf">.pdf</a>&nbsp;]
 </p>
 
 <p><a name="issre-copia-2023"></a>
 
-<b>Precise Lazy Initialization for Programs with Complex Heap Inputs</b> by Juan Manuel Copia, Facundo Molina, Nazareno Aguirre, Marcelo Frias, Alessandra Gorla, and Pablo Ponzio. In <em>34th IEEE International Symposium on Software Reliability Engineering, ISSRE 2023, Florence, Italy, October 9-12, 2023</em>, 2023.
+<b>Precise Lazy Initialization for Programs with Complex Heap Inputs</b> by Juan Manuel Copia, Facundo Molina, Nazareno Aguirre, Marcelo Frias, Alessandra Gorla, and Pablo Ponzio. In <em>34th IEEE International Symposium on Software Reliability Engineering, ISSRE 2023, Florence, Italy, October 9-12</em>, 2023.
 [&nbsp;<a href="https://github.com/JuanmaCopia/spf-pli">code</a>&nbsp;|
 <a href="https://nmaguirre.github.io/assets/pdf/issre2023b.pdf">.pdf</a>&nbsp;]
 
@@ -58,7 +65,7 @@ This is a list of my latest/most relevant publications. The full list can be fou
 
 <b>Learning to Prune Infeasible Paths in Generalized Symbolic Execution</b> by Facundo Molina, Pablo Ponzio, Nazareno Aguirre, and Marcelo&nbsp;F. Frias. In <em>33rd IEEE International Symposium on Software
   Reliability Engineering, ISSRE 2022, Charlotte, NC, USA, October
-  31-November 3, 2022</em>, 2022.
+  31-November 3</em>, 2022.
 [&nbsp;<a href="https://sites.google.com/view/learning-symbolic-invariants">code</a>&nbsp;|
 <a href="https://ieeexplore.ieee.org/document/9978961">https</a>&nbsp;|
 <a href="https://facumolina.github.io/files/Molina_ETAL_ISSRE2022.pdf">.pdf</a>&nbsp;]
