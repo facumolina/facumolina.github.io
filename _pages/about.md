@@ -128,8 +128,8 @@ This is a list of my latest/most relevant publications. The full list can be fou
 
 ## Service
 
-* 2024: [FORGE 2024](https://conf.researchr.org/home/forge-2024) Program Committee, [ICSE 2024 Artifact Evaluation Committee](https://conf.researchr.org/track/icse-2024/icse-2024-artifact-evaluation).
-* 2023: [SCAM 2023](http://www.ieee-scam.org/2023/) Program Committee, [ISSTA 2023](https://conf.researchr.org/track/issta-2023/issta-2023-artifact-evaluation) Artifact Evaluation Committee, [SAS 2023](https://conf.researchr.org/track/sas-2023/sas-2023-sas-2023-artifacts) Artifact Evaluation Committee. 
+* 2024: [TSE](https://www.computer.org/csdl/journal/ts), [FORGE 2024](https://conf.researchr.org/home/forge-2024) Program Committee, [ICSE 2024 Artifact Evaluation Committee](https://conf.researchr.org/track/icse-2024/icse-2024-artifact-evaluation).
+* 2023: [TSE](https://www.computer.org/csdl/journal/ts), [SCAM 2023](http://www.ieee-scam.org/2023/) Program Committee, [ISSTA 2023](https://conf.researchr.org/track/issta-2023/issta-2023-artifact-evaluation) Artifact Evaluation Committee, [SAS 2023](https://conf.researchr.org/track/sas-2023/sas-2023-sas-2023-artifacts) Artifact Evaluation Committee. 
 * 2021: [TORACLE 2021](https://toracle2021.github.io/) Program Committee.
 
 ## Funding
