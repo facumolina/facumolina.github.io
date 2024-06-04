@@ -1,0 +1,437 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{amsfonts}
+\usepackage{longtable}
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titleformat{\subsection}{\large\scshape\raggedright}{}{1em}{\underline}[] % Text formatting of subsections
+\titlespacing{\section}{0pt}{3pt}{5pt} % Spacing around sections
+\titlespacing{\subsection}{0pt}{10pt}{2pt} % Spacing around subsections
+\usepackage{graphicx}
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+{\raggedleft{\Huge Facundo \textsc{Molina}}} \\
+\textit{Investigador Postdoctoral} \\
+\textsc{Email:} \href{mailto:facundo.molina@imdea.org}{facundo.molina@imdea.org} \\
+\textsc{Web:} \href{https://facumolina.github.io}{https://facumolina.github.io}
+
+
+\section{Empleo}
+
+\begin{tabular}{rl}
+\\
+\textsc{Desde 2022}   & \textbf{Investigador Postdoctoral} - \textit{IMDEA Software Institute}, Madrid, España. \\
+& Mis principales intereses de investigación corresponden al Testing y Análisis de Software, \\ 
+& con el objetivo de mejorar la confiabilidad y la calidad del software. \\ & \\
+
+\textsc{2018 - 2022} & \textbf{Asistente Docente - Ayudante de Primera} - \textit{Departamento de Computación}, \\ 
+& \textit{Universidad Nacional de Río Cuarto}, Argentina. \\ 
+& Asistente docente en el curso Computabilidad y Complejidad, DOSE (Distributed \\
+& and Outsourced Software Engineering), e Introducción a la Algorítmica y Programación. \\ & \\
+
+\textsc{2015 - 2019} & \textbf{Ingeniero de Software} - \textit{SMF Consulting S.L}. \\ 
+& Desarrollador de Software en Java proveyendo soluciones basadas en la plataforma ERP \\ 
+& Openbravo usando tecnologías como Java, PostgreSQL, Oracle, JavaScript, Mercurial. \\ & \\
+
+\textsc{2014 - 2017} & \textbf{Asistente Docente - Ayudante de Segunda} - \textit{Departamento de Computación}, \\ 
+& \textit{Universidad Nacional de Río Cuarto}, Argentina. \\ 
+& Asistente docente en cursos de la Licenciatura en Ciencias de la Computación \\ 
+& incluyendo Algoritmos I, Algoritmos II, Análisis Comparativo \\ 
+& de Lenguajes y Análisis y Diseño de Sistemas. 
+\\ & \\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Formación Académica}
+
+\begin{tabular}{rl}
+\\
+\textsc{2017 - 2022}	& \textbf{Doctor en Ciencias de la Computación} \\
+& Tesis: Técnicas basadas en Búsqueda y Aprendizaje para la Inferencia de Especificaciones. \\
+& \textit{Facultad de Matemáticas, Astronomía, Física y Computación - FaMaF} \\ & \textit{Universidad Nacional de Córdoba} - Argentina \\ & \\
+
+\textsc{2012 - 2017}	& \textbf{Licenciado en Ciencias de la Computación} \\
+& (Programa de 5 años + tesis) \\
+& \textit{Departamento de Computación - Universidad Nacional de Río Cuarto} - Argentina \\ 
+& \textsc{Tesis:} Aprendizaje Automático de Especificaciones Relacionales utilizando \\ 
+& Computación Evolutiva. \\ 
+& \textsc{Promedio:} 9.43 de 10 \\ & \\
+
+\textsc{2012 - 2014}	& \textbf{Analista en Computación} \\
+& \textit{Departamento de Computación - Universidad Nacional de Río Cuarto} - Argentina \\
+& \textsc{Thesis:} Proyecto en el curso DOSE (Distributed and Outsourced Software \\ 
+& Engineering). \\ 
+& \textsc{Promedio:} 9.33 de 10 \\ \\ 
+
+\end{tabular}
+
+\section{Publicaciones}
+\begin{longtable}{rl}
+
+\textsc{Julio} 2024  & \textbf{Abstraction-Aware Inference of Metamorphic Relations} \\
+        & Agustín Nolasco, Facundo Molina, Renzo Degiovanni, Alessandra Gorla, \\ 
+        & Diego Garbervetsky, Mike Papadakis, Sebastian Uchitel, Nazareno Aguirre \\
+        & and Marcelo F. Frias. \\
+        & \textit{To appear in the ACM Conference on the Foundations of Software Engineering,} \\
+        & \textit{FSE 2024, Porto de Galinhas, Brazil, July 15 - 19, 2024.} \\ & \\
+
+\textsc{Mayo} 2024  & \textbf{Improving Patch Correctness Analysis via Random Testing} \\
+        & \textbf{and Large Language Models} \\
+        & Facundo Molina, Juan Manuel Copia and Alessandra Gorla. \\
+        & \textit{To appear in the 17th IEEE International Conference on Software Testing,} \\
+        & \textit{Verification and Validation, ICST 2024, Toronto, Canada, May 27 - 31, 2024.} \\ & \\
+
+\textsc{Octubre} 2023  & \textbf{Enabling Efficient Assertion Inference} \\
+        & Aayush Garg, Renzo Degiovanni, Facundo Molina, Maxime Cordy,\\
+        & Nazareno Aguirre, Mike Papadakis, and Yves Le Traon. \\
+        & \textit{IEEE 34th International Symposium on Software Reliability Engineering,} \\
+        & \textit{ISSRE 2023, Florence, Italy, October 9 - 12, 2023.} \\ & \\
+
+\textsc{Octubre} 2023  & \textbf{Precise Lazy Initialization for Programs with Complex Heap Inputs} \\
+        & Juan Manuel Copia, Facundo Molina, Nazareno Aguirre, Marcelo F. Frias,\\
+        & Alessandra Gorla, and Pablo Ponzio. \\
+        & \textit{IEEE 34th International Symposium on Software Reliability Engineering,} \\
+        & \textit{ISSRE 2023, Florence, Italy, October 9 - 12, 2023.} \\ & \\
+
+\textsc{Septiembre} 2023  & \textbf{SpecFuzzer: A Tool for Inferring Class Specifications via Grammar} \\
+        & \textbf{Based Fuzzing} - Facundo Molina, Nazareno Aguirre and Marcelo d'Amorim \\
+        & \textit{IEEE/ACM 38th International Conference on Automated Software Engineering,} \\
+        & \textit{ASE 2023, Luxembourg, September 11 - 15, 2023.} \\ & \\
+
+\textsc{Julio} 2023  & \textbf{EvoSpex: A Search-based Tool for Postcondition Inference} \\
+& Facundo Molina, Pablo Ponzio, Nazareno Aguirre and Marcelo F. Frias. \\
+& \textit{ACM SIGSOFT 32nd International Symposium on Software Testing and Analysis,} \\
+& \textit{ISSTA 2023, Seattle, USA, July 17 - 21, 2023.} \\ & \\
+
+\textsc{Abril} 2023  & \textbf{Efficient Bounded Exhaustive Input Generation from Program APIs} \\
+        & Mariano Politano, Valeria Bengolea, Facundo Molina, Marcelo F. Frias,\\
+        & Nazareno Aguirre, and Pablo Ponzio. \\
+	& \textit{26th International Conference on Fundamental Approaches to Software Engineering,} \\
+        & \textit{FASE 2023, Paris, France, April 22 - 27, 2023.} \\ & \\
+
+\textsc{Noviembre} 2022  & \textbf{Learning to Prune Infeasible Paths in Generalized Symbolic Execution} \\
+        & Facundo Molina, Pablo Ponzio, Nazareno Aguirre and Marcelo F. Frias.\\
+        & \textit{IEEE 33rd International Symposium on Software Reliability Engineering,} \\
+        & \textit{ISSRE 2022, Charlotte, NC, USA, October 31 - Nov. 3, 2022.} \\ & \\
+
+\textsc{Mayo} 2022  & \textbf{Fuzzing Class Specifications} \\
+	& Facundo Molina, Marcelo d'Amorim and Nazareno Aguirre. \\
+	& \textit{Proceedings of the 44th ACM/IEEE International Conference} \\
+	& \textit{on Software Engineering, ICSE 2022, Pittsburgh, USA, May 22-27, 2022.} \\ & \\
+
+\textsc{Mayo} 2021  & \textbf{EvoSpex: An Evolutionary Algorithm for Learning Postconditions} \\
+& Facundo Molina, Pablo Ponzio, Nazareno Aguirre and Marcelo F. Frias. \\
+& \textit{Proceedings of the 43rd ACM/IEEE International Conference} \\
+& \textit{on Software Engineering, ICSE 2021, Madrid, Spain, May 23-29, 2021.} \\ & \\
+
+\textsc{Septiembre} 2020  & \textbf{Applying Learning Techniques to Oracle Synthesis} \\
+& Facundo Molina \\
+& \textit{Doctoral Symposium, Proceedings of the 35th IEEE/ACM International Conference} \\
+& \textit{on Automated Software Engineering, ASE 2020, Australia, September 21-25, 2020.} \\ & \\
+
+\textsc{Julio} 2019  & \textbf{An Evolutionary Approach to Translating Operational Specifications} \\ & \textbf{into Declarative Specifications} - Facundo Molina, César Cornejo, Renzo\\ 
+& Degiovanni, Germán Regis, Pablo Castro, Nazareno Aguirre and Marcelo Frias \\
+& \textit{Science of Computer Programming, Volume 181, Pages 47-63, 2019.} \\ & \\
+
+\textsc{Mayo} 2019  & \textbf{Training Binary Classifiers as Data Structure Invariants} \\ 
+& Facundo Molina, Pablo Ponzio, Renzo Degiovanni, Germán Regis, \\ 
+& Nazareno Aguirre and Marcelo Frias \\
+& \textit{Proceedings of the 41th International Conference on Software Engineering,} \\
+& \textit{ICSE 2019, Montreal, Canada, May 25-31, 2019.} \\ & \\
+
+\textsc{Septiembre} 2018  & \textbf{A Genetic Algorithm for Goal-Conflict Identification} \\ 
+& Renzo Degiovanni, Facundo Molina, Germán Regis and Nazareno Aguirre \\
+& \textit{Proceedings of the 33rd ACM/IEEE International Conference on Automated } \\
+& \textit{Software Engineering, ASE 2018, Montpellier, France, September 3-7, 2018.} \\ & \\
+
+\textsc{Mayo} 2018  & \textbf{From Operational to Declarative Specifications using a Genetic} \\ & \textbf{Algorithm} - Facundo Molina, Renzo Degiovanni, Germán Regis, Pablo Castro,\\
+& Nazareno Aguirre and Marcelo Frias \\
+& \textit{Proceedings of the 11th International Workshop on Search-Based Software Testing,} \\
+& \textit{SBST@ICSE 2018, Gothenburg, Sweden, May 28-29, 2018.} \\ & \\
+
+\textsc{Noviembre} 2016 & \textbf{An Evolutionary Approach to Translate Operational Specifications} \\ & \textbf{into Declarative Specifications} - Facundo Molina, César Cornejo, Renzo \\
+& Degiovanni, Germán Regis, Pablo Castro, Nazareno Aguirre and Marcelo Frias \\
+& \textit{Proceedings of the 19th Brazilian Symposium on Formal Methods} \\ 
+& \textit{SBMF 2016, Natal, Brazil, November 22-25, 2016.} \\ & \\
+
+\end{longtable}
+
+\section{Charlas Públicas}
+
+\begin{longtable}{rl}
+\textsc{Octubre} 2023  & \textbf{Generación Automática de Oráculos para Tests} \\ 
+& Invitado a la \textit{Jornadas de Ciencias de la Computación}, JCC 2023, \\ 
+& Rosario, Argentina. \\ & \\
+
+\textsc{Septiembre} 2023  & \textbf{SpecFuzzer: A Tool for Inferring Class Specifications via} \\ 
+& \textbf{Grammar-based Fuzzing} - Tool Demonstrations track, ASE conference, Luxembourg. \\ & \\
+
+\textsc{Julio} 2023 & \textbf{EvoSpex: A Search-based Tool for Postcondition Inference} \\ 
+& Tool Demonstrations track, ISSTA conference, Seattle, USA. \\ & \\
+
+\textsc{Noviembre} 2022 & \textbf{Learning to Prune Infeasible Paths in Generalized Symbolic Execution} \\
+& Research track, ISSRE conference, Charlotte, USA. \\ & \\
+
+\textsc{Octubre} 2022 & \textbf{Fuzzing Class Specifications} - Comunicación oral, \\ 
+& Simposio Argentino de Ingeniería de Software ASSE 2022 (virtual), Argentina. \\ & \\
+
+\textsc{Mayo} 2022 & \textbf{Fuzzing Class Specifications} - Research track, ICSE conference, Pittsburgh, USA. \\ & \\
+
+\textsc{Marzo} 2022 & \textbf{EvoSpex: An Evolutionary Algorithm for Learning Postconditions} \\ 
+& Invitado al Taller Argentino de Fundamentos para el Análisis\\ 
+& y la Construcción Automática de Software, FACAS 2022, La Falda, Argentina. \\ & \\
+
+\textsc{October} 2021 & \textbf{EvoSpex: An Evolutionary Algorithm for Learning Postconditions} \\ 
+& Comunicación oral, Simposio Argentino de Ingeniería de Software ASSE 2021 (virtual), \\ 
+& Argentina. \\ & \\
+
+\textsc{May} 2021 & \textbf{EvoSpex: An Evolutionary Algorithm for Learning Postconditions} \\ 
+& Research track, ICSE conference (virtual), Madrid, Spain. \\ & \\
+
+\textsc{September} 2020 & \textbf{Applying Learning Techniques to Oracle Synthesis} \\ 
+& Doctoral symposium, ASE conference (virtual), Melbourne, Australia. \\ & \\
+
+\textsc{May} 2019 & \textbf{Training Binary Classifiers as Data Structure Invariants} \\ 
+& Research track, ICSE conference, Montréal, Canada. \\ & \\
+
+\textsc{March} 2019 & \textbf{Learning Hybrid Invariants to Improve Symbolic Execution on Structurally} \\ 
+& \textbf{Complex Inputs} - Invitado al Taller Argentino de Fundamentos para el Análisis \\ 
+& y la Construcción de Software, FACAS 2021, La Falda, Argentina. \\ & \\
+
+\textsc{September} 2018 & \textbf{A Genetic Algorithm for Goal-Conflict Identification} \\ 
+& Research track, ASE conference, Montpellier, France. \\ & \\
+
+\textsc{November} 2016 & \textbf{An Evolutionary Approach to Translate Operational Specifications into} \\
+& \textbf{Declarative Specifications} - Research track, Brazilian Symposium on Formal \\ 
+& Methods SBMF 2016, Natal, Brazil. \\ & \\
+
+\end{longtable}
+
+\section{Prototipos Desarrollados}
+\begin{longtable}{rl}
+
+\textbf{FixCheck} & FixCheck es una herramienta para mejorar los análisis de correctitud de fixes en Java. \\
+& Combina análisis estático, random testing y LLMs para generar automáticamente tests \\
+& que destacan y explican la posible incorrectitud de un fix. \\
+& FixCheck está disponible en: \href{https://github.com/facumolina/fixcheck}{https://github.com/facumolina/fixcheck} \\ & \\
+
+\textbf{SpecFuzzer} & SpecFuzzer es una herramienta que infiere automáticamente oráculos para tests prueba \\
+& en forma de especificaciones de clase (poscondiciones, invariantes) y funciona para clases Java. \\
+& SpecFuzzer usa un fuzzer como generador de aserciones candidatas; un detector dinámico \\
+& de invariantes –Daikon– para filtrar aserciones invalidadas por una suite de tests; y un \\
+& mecanismo basado en mutaciones para agrupar y clasificar aserciones. \\
+& SpecFuzzer está disponible en: \href{https://github.com/facumolina/specfuzzer}{https://github.com/facumolina/specfuzzer} \\ & \\
+
+
+\textbf{EvoSpex} & EvoSpex es una herramienta que, dado un método en Java, utiliza un algoritmo evolutivo  \\
+& para producir una especificación del comportamiento actual del método, en forma de aserciones  \\
+& de poscondición. EvoSpex implementa un algoritmo genético clásico que busca una poscondición \\
+& compacta que acepte el comportamiento actual del método, y rechaze cualquier desviación. \\
+& de dicho comportamiento. EvoSpex está disponible en: \href{https://github.com/facumolina/evospex}{https://github.com/facumolina/evospex} \\ & \\
+
+\end{longtable}
+
+\section{Becas de Investigación}
+\begin{longtable}{rl}
+
+\textsc{2017} & \textbf{Beca Doctoral} \\ 
+& \textit{Beca doctoral de 5 años otorgada por el Conesjo Nacional de Investigaciones Científicas y Técnicas} \\
+& \textit{(CONICET) para financiar a estudiantes de doctorado.} \\ & \\
+
+\textsc{2016} & \textbf{Beca EVC-CIN} \\ 
+& \textit{Beca de 1 año otorgada por el Consejo Interuniversitario Nacional (CIN) para incentivar} \\
+& \textit{a estudiantes universitarios a seguir vocaciones científicas.} \\ & \\
+
+\end{longtable}
+
+\section{Participación en Proyectos de Investigación Financiados}
+\begin{longtable}{rl}
+
+\textsc{11/2023-02/2024} & \textbf{ANZEN: Model-based Safety Analysis through Formal Verification.} \\ 
+& Proyecto de colaboración entre IMDEA Software y Anzen Aerospace Engineering, SL \\
+&  para explorar el uso de herramientas de verificación formal en el contexto de análisis \\
+&  de safety basado en modelos. Mi partipación fue como parte del equipo de IMDEA Software. \\ & \\
+
+\textsc{09/2023-08/2027} & \textbf{ESPADA: Efficient and Secure Data Protection Against Digital Attack.} \\ 
+& Proyecto liderado por Juan Caballero y Alessandra Gorla, otorgado por el \\ 
+& Ministerio de Ciencia e Innovación español, co-financiado por European Union ESF, EIE \\
+& y fondos NextGeneration. Participo como miembro del equipo de investigación. \\ & \\
+
+\textsc{12/2022-11/2024} & \textbf{PRODIGY: Asegurando la seguridad, escalabilidad y funcionalidad} \\
+& \textbf{de los sistemas digitales de procedencia.} \\ 
+& Proyecto liderador por Juan Caballero y Pedro Moreno-Sánchez, otorgado por el \\
+& Ministerio de Ciencia e Innovación español, co-financiado por European Union ESF, EIE \\
+& y fondos NextGeneration. Participo como miembro del equipo de investigación. \\ & \\
+
+\end{longtable}
+
+\section{Premios \& Honores}
+\begin{longtable}{rl}
+
+\textsc{2020} & \textbf{Latin America PhD Award} \\
+& \textit{Un premio de investigación para estudiantes de doctorado en áreas relacionadas a la computación} \\
+& \textit{en universidad de América Latina, otorgado por Microsoft Research.} \\ & \\
+
+\textsc{2018} & \textbf{Best Paper Award} \\ 
+& \textit{From Operational to Declarative Specifications using a Genetic Algorithm} \\
+& \textit{11th International Workshop on Search-Based Software Testing, SBST 2018.} \\ & \\
+
+\textsc{2016} & \textbf{Best Paper Award} \\ 
+& \textit{An Evolutionary Approach to Translate Operational Specifications into } \\
+& \textit{Declarative Specifications, 19th Brazilian Symposium on Formal Methods, SBMF 2016.} \\ & \\
+
+\textsc{2016} & \textbf{Abanderado de la Universidad Nacional de Río Cuarto por un período de un año} \\ 
+& \textit{Honor tradicional en instituciones educativas en Argentina a tres destacados estudiantes} \\ 
+& \textit{de la institución.} \\ & \\
+\end{longtable}
+
+\section{Estudiantes Supervisados}
+\begin{longtable}{rl}
+
+\textsc{2023 - Presente} & \textbf{Agustin Nolasco} - \textit{Estudiante de grado} - Universidad Nacional de Río Cuarto, Argentina. \\ 
+& Agustin trabaja en una nueva técnica para la inferencia de propiedades metamórficas, \\ 
+& basada en análisis en tiempo de ejecución, fuzzing-basado en gramáticas y SAT solving. \\ & \\
+
+\textsc{2023 - Presente} & \textbf{Claudio Dosantos} - \textit{Estudiante de grado} - Universidad Nacional de Río Cuarto, Argentina. \\
+& Claudio trabaja en el análisis de la efectividad del testing de regresión utilizando \\ 
+& distintos tipos de oráculos, como aserciones de tests o contratos. \\ & \\
+
+\textsc{2023 - Presente} & \textbf{Ignacio Gonzalez} - \textit{Estudiante de grado} - Universidad Nacional de Río Cuarto, Argentina. \\
+& Ignacio estudia el impacto de distintas técnicas de generación automática de tests en  \\ 
+& tareas de inferencia de especificaciones. \\ & \\
+
+\end{longtable}
+
+\section{Servicio Académico}
+\begin{longtable}{rl}
+
+\textsc{2024} & Comité de Programa en \textit{International Conference on AI Foundation Models and Software}. \\ 
+& \textit{Engineering (FORGE 2024)}. Revisor en \textit{IEEE Transactions on Software Engineering (TSE)}. \\
+& Comité de Evaluación de Artefactos en \textit{International Conference on Software Engineering (ICSE 2024).} \\ & \\
+
+\textsc{2023} & Comité de Programa en \textit{International Working Conference on Source Code Analysis and} \\ 
+& \textit{Manipulation (SCAM 2023)}. Revisor en \textit{IEEE Transactions on Software Engineering (TSE)}. \\
+& Comité de Evaluación de Artefactos en \textit{International Symposium on Software Testing and Analysis,} \\ 
+& \textit{(ISSTA 2023), Static Analysis Symposium (SAS 2023).} \\ & \\
+
+\textsc{2022} & Estudiante voluntario en \textit{International Conference on Software Engineering (ICSE 2022.)} \\ & \\ 
+
+\textsc{2021} & Comité de Programa en \textit{International Workshop on Test Oracles (TORACLE 2021)}. \\
+& Estudiante voluntario en \textit{International Conference on Software Engineering (ICSE 2021.)} \\ & \\
+
+\textsc{2019} & Estudiante voluntario en \textit{International Conference on Software Engineering (ICSE 2019.)} \\ & \\ 
+
+\textsc{2018} & Estudiante voluntario en \textit{International Conference on Automated Software Engineering (ASE 2018).} \\ & \\ 
+
+\textsc{2017} & Estudiante voluntario en \textit{International Conference on Software Engineering (ICSE 2017.)} \\ & \\ 
+
+\end{longtable}
+
+\section{Cursos Extracurriculares}
+\begin{longtable}{rl}
+\textsc{Octubre} 2019 & \textbf{Neural Networks and Deep Learning} - Adjunct Professor Andrew Ng \\
+& \textit{Foundations of Deep Learning}  \\
+& \textit{Curso online autorizado por deeplearning.ai} \\
+& \textit{Coursera} \\ & \\
+
+\textsc{Marzo} 2019 & \textbf{Introduction to Data Science in Python} - Christopher Brooks \\
+& \textit{Introducción a la manipulación de datos utilizando pandas}  \\
+& \textit{Course online autorizado por University of Michigan} \\
+& \textit{Coursera} \\ & \\
+
+\textsc{Agosto} 2018 & \textbf{Neural Networks} - Dr. Francisco Tamarit \\
+\textsc{Noviembre} 2018 & \textit{Fundamentos Matemáticos de las Redes Neuronales Artificiales}  \\ 
+& \textit{Cursos de Posgrado} \\
+& \textit{Universidad Nacional de Córdoba} - Argentina \\ & \\
+
+\textsc{Agosto} 2017 & \textbf{Text Mining} - Dra. Laura Alonso Alemany \\
+\textsc{Noviembre} 2017 & \textit{Técnicas de text mining aplicadas a problemas de procesamiento del lenguaje natural}  \\ 
+& \textit{(similaridad de palabras, clustering de documentos, traducción)} \\
+& \textit{Cursos de Posgrado} \\
+& \textit{Universidad Nacional de Córdoba} - Argentina \\ & \\
+
+\textsc{Agosto} 2017 & \textbf{La Información y sus Demonios} - Dr. Javier Blanco \\
+\textsc{Noviembre} 2017 & \textit{Filosofía de la Información} \\
+& \textit{Cursos de Posgrado} \\
+& \textit{Universidad Nacional de Río Cuarto} - Argentina \\ & \\
+
+\textsc{Febrero} 2017 & \textbf{Human Dynamics: Data, Networks and Modelling} - Dr. Márton Karsai \\
+& \textit{Escuela de Verano RIO 2017} \\
+& \textit{Universidad Nacional de Río Cuarto} - Argentina \\ & \\
+
+\textsc{Marzo} 2016 & \textbf{Testing de Software} - Dr. Renzo Degiovanni \\
+\textsc{Junio} 2016 & \textit{Principales técnicas de testing de software utilizando herramientas estado del arte} \\
+& \textit{Cursos de Posgrado} \\
+& \textit{Universidad Nacional de Río Cuarto} - Argentina \\ & \\
+
+\textsc{Febrero} 2016 & \textbf{Systematic Test Case Generation} - Prof. Sarfraz Khurshid \\
+& \textit{Escuela de Verano RIO 2016} \\
+& \textit{Universidad Nacional de Río Cuarto} - Argentina \\ & \\
+
+\textsc{Febrero} 2016 & \textbf{Symbolic Program Analysis} - Prof. Willem Visser \\
+& \textit{Escuela de Verano RIO 2016} \\
+& \textit{Universidad Nacional de Río Cuarto} - Argentina \\ & \\
+
+\textsc{Febrero} 2015 & \textbf{Description Logic Reasoning} - Dr. Anni-Yasmin Turhan\\
+& \textit{Escuela de Verano RIO 2015} \\
+& \textit{Universidad Nacional de Río Cuarto} - Argentina \\ & \\
+
+\textsc{Febrero} 2015 & \textbf{Fundamentals of Quantum Programming Languages} - Dr. Alejandro Díaz-Caro \\
+& \textit{Escuela de Verano RIO 2015} \\
+& \textit{Universidad Nacional de Río Cuarto} - Argentina \\ & \\
+
+\end{longtable}
+
+\section{Idiomas}
+\begin{tabular}{rl}
+\\
+\textsc{Spanish:} & Lengua madre\\
+\textsc{English:} & Fluído \\ & \\
+\end{tabular}
+
+\end{document}
