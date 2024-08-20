@@ -2,13 +2,22 @@
 permalink: /
 ---
 
-I work at the [IMDEA Software Institute](https://software.imdea.org/) as a **Postdoctoral Researcher**, under the supervision of [Alessandra Gorla](https://software.imdea.org/~alessandra.gorla/). My main research interests are in the area of Software Testing and Analysis, with the goal of improving software reliability and quality.
+I work at the [IMDEA Software Institute](https://software.imdea.org/) as a **Postdoctoral Researcher**, under the supervision of [Alessandra Gorla](https://software.imdea.org/~alessandra.gorla/). My main research interests are in the area of Software Testing and Analysis and the use of Artificial Intelligence for Software Engineering (AI4SE), with the goal of improving software reliability and quality.
 
-In April 2022, I received my Ph.D. at [FAMAF](https://www.famaf.unc.edu.ar/), University of Córdoba (UNC), where I was advised by Professor [Nazareno Aguirre](https://dc.exa.unrc.edu.ar/staff/naguirre). My research focused on the **automated generation of test oracles**, in the form of class invariants and postconditions. Particularly, my work involved the use of search-based and learning-based techniques with the goal of obtaining precise oracles. My dissertation is available in the UNC [digital repository](https://rdu.unc.edu.ar/handle/11086/26692).
+In April 2022, I received my Ph.D. at [FAMAF](https://www.famaf.unc.edu.ar/), University of Córdoba (UNC), where I was advised by Professor [Nazareno Aguirre](https://dc.exa.unrc.edu.ar/staff/naguirre). My research focused on the **automated generation of test oracles**, in the form of class invariants and postconditions. Particularly, my work involved the use of search-based and learning-based techniques (mainly evolutionary algorithms and neural networks) with the goal of obtaining precise oracles. My dissertation is available in the UNC [digital repository](https://rdu.unc.edu.ar/handle/11086/26692).
 
 ## Projects
 
 <table style="border-collapse: collapse; border: none; font-size:100%">
+	<tr style="border: none;">
+		<td style="width:30%; border: none;">
+			<div class="card-img" style="text-align: left;">
+				<img src="{{ site.url }}{{ site.baseurl }}/images/fixcheck-pic.png">
+			</div>
+		</td>
+		<td align="justify" style="border: none"><a href="https://github.com/facumolina/fixcheck">FixCheck</a> is a tool for improving patch correctness analysis. Given a target Java patch, it uses static analysis and random testing to generate new inputs to test the patch, and Large Language Models (LLMs) to generate meaningful assertions for the new inputs. The new tests are executed and those that fail are selected and prioritised according to their likelihood of revealing a defect in the patch.
+		</td>
+	</tr>
 	<tr style="border: none;">
 		<td style="width:30%; border: none;">
 			<div class="card-img" style="text-align: left;">
@@ -24,7 +33,7 @@ In April 2022, I received my Ph.D. at [FAMAF](https://www.famaf.unc.edu.ar/), Un
 				<img src="{{ site.url }}{{ site.baseurl }}/images/evospex-pic.png">
 			</div>
 		</td>
-		<td align="justify" style="border: none;">Software reliability analyses requires a specification of the intended behavior of the software under analysis. Unfortunately, software many times lacks such specifications, or only provides them for scenario-specific behaviors. This issue seriously diminishes the analyzability of software with respect to its reliability. <a href="https://github.com/facumolina/evospex">EvoSpex</a> is a tool that, given a Java method, uses an evolutionary algorithm to produce a specification of the method's current behavior, in the form of postcondition assertions.</td>
+		<td align="justify" style="border: none;"><a href="https://github.com/facumolina/evospex">EvoSpex</a> EvoSpex is a search-based tool for inferring postconditions of Java methods. Given a Java method and a test suite with executions of the method, EvoSpex uses evolutionary computation to automatically infer a postcondition assertion capturing the method's current behavior. The assertions that EvoSpex produce belong to a JML-like specification language.</td>
 	</tr>
 	<tr style="border: none;">
 		<td style="width:30%; height: 30%; border: none;">
