@@ -48,9 +48,17 @@ In April 2022, I received my Ph.D. at [FAMAF](https://www.famaf.unc.edu.ar/), Un
 ## Publications
 This is a list of my latest/most relevant publications. The full list can be found in my <a href="https://dblp.org/pid/189/6361.html">dblp</a> or <a href="https://scholar.google.com/citations?user=_8J_7doAAAAJ">google scholar</a>. 
 
+<p><a name="fse-nolasco-2024"></a>
+
+<b>Abstraction-Aware Inference of Metamorphic Relations
+</b> by Agustín Nolasco, Facundo Molina, Renzo Degiovanni, Alessandra Gorla, Diego Garbervetsky, Mike Papadakis, Sebastian Uchitel, Nazareno Aguirre and Marcelo F. Frias. In <em>Proceedings of the ACM on Software Engineering</em>, Vol. 1, Issue FSE, 2024.
+[&nbsp;<a href="https://zenodo.org/records/10683011">code</a>&nbsp;|
+<a href="https://rdegiovanni.github.io/publications/files/FSE2024.pdf">.pdf</a>&nbsp;|<a href="https://dl.acm.org/doi/10.1145/3643747">https</a>&nbsp;]
+</p>
+
 <p><a name="icst-molina-2024"></a>
 
-<b>Improving Patch Correctness Analysis via Random Testing and Large Language Models</b> by Facundo Molina, Juan Manuel Copia and Alessandra Gorla. To appear in <em>17th IEEE International Conference on Software Testing, Verification and Validation, ICST 2024, Toronto, Canada, May 27-31</em>, 2024.
+<b>Improving Patch Correctness Analysis via Random Testing and Large Language Models</b> by Facundo Molina, Juan Manuel Copia and Alessandra Gorla. In the <em>17th IEEE International Conference on Software Testing, Verification and Validation, ICST 2024, Toronto, Canada, May 27-31</em>, 2024.
 [&nbsp;<a href="https://zenodo.org/records/10498174">code</a>&nbsp;|
 <a href="https://facumolina.github.io/files/MOLINA_ETAL_ICST2024.pdf">.pdf</a>&nbsp;]
 </p>
