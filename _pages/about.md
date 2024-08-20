@@ -53,7 +53,8 @@ This is a list of my latest/most relevant publications. The full list can be fou
 <b>Abstraction-Aware Inference of Metamorphic Relations
 </b> by Agustín Nolasco, Facundo Molina, Renzo Degiovanni, Alessandra Gorla, Diego Garbervetsky, Mike Papadakis, Sebastian Uchitel, Nazareno Aguirre and Marcelo F. Frias. In <em>Proceedings of the ACM on Software Engineering</em>, Vol. 1, Issue FSE, 2024.
 [&nbsp;<a href="https://zenodo.org/records/10683011">code</a>&nbsp;|
-<a href="https://rdegiovanni.github.io/publications/files/FSE2024.pdf">.pdf</a>&nbsp;|<a href="https://dl.acm.org/doi/10.1145/3643747">https</a>&nbsp;]
+<a href="https://rdegiovanni.github.io/publications/files/FSE2024.pdf">.pdf</a>&nbsp;|
+<a href="https://dl.acm.org/doi/10.1145/3643747">https</a>&nbsp;]
 </p>
 
 <p><a name="icst-molina-2024"></a>
