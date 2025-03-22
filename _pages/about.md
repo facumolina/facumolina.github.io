@@ -48,6 +48,15 @@ In April 2022, I received my Ph.D. at [FAMAF](https://www.famaf.unc.edu.ar/), Un
 ## Publications
 This is a list of my latest/most relevant publications. The full list can be found in my <a href="https://dblp.org/pid/189/6361.html">dblp</a> or <a href="https://scholar.google.com/citations?user=_8J_7doAAAAJ">google scholar</a>. 
 
+<p><a name="tosem-molina-2025"></a>
+
+<b>Test Oracle Automation in the Era of LLMs
+</b> by Facundo Molina, Alessandra Gorla and Marcelo d'Amorim. In <em>ACM Transactions on Software Engineering and Methodology
+</em>, 2025.
+[&nbsp;
+<a href="https://dl.acm.org/doi/10.1145/3715107">https</a>&nbsp;]
+</p>
+
 <p><a name="fse-nolasco-2024"></a>
 
 <b>Abstraction-Aware Inference of Metamorphic Relations
@@ -131,8 +140,8 @@ This is a list of my latest/most relevant publications. The full list can be fou
 **Researchers**
 * [Alessandra Gorla](https://software.imdea.org/~alessandra.gorla/) (IMDEA, Spain - current supervisor)
 * [Nazareno Aguirre](https://dc.exa.unrc.edu.ar/staff/naguirre) (UNRC, Argentina - former PhD advisor)
-* [Renzo Degiovanni](https://rdegiovanni.github.io/) (SnT, Luxembourg)
 * [Marcelo d'Amorim](https://damorim.github.io/) (NCSU, USA)
+* [Renzo Degiovanni](https://rdegiovanni.github.io/) (SnT, Luxembourg)
 * Pablo Ponzio (UNRC, Argentina)
 <br>
 
@@ -146,6 +155,7 @@ This is a list of my latest/most relevant publications. The full list can be fou
 
 ## Service
 
+* 2025: [TOSEM](https://dl.acm.org/journal/tosem), [Internetware 2025](https://conf.researchr.org/home/internetware-2025) Program Committee, [FSE 2025](https://conf.researchr.org/home/fse-2025) Artifact Evaluation Committee.
 * 2024: [TSE](https://www.computer.org/csdl/journal/ts), [FORGE 2024](https://conf.researchr.org/home/forge-2024) Program Committee, [ICSE 2024](https://conf.researchr.org/track/icse-2024/icse-2024-artifact-evaluation) Artifact Evaluation Committee.
 * 2023: [TSE](https://www.computer.org/csdl/journal/ts), [SCAM 2023](http://www.ieee-scam.org/2023/) Program Committee, [ISSTA 2023](https://conf.researchr.org/track/issta-2023/issta-2023-artifact-evaluation) Artifact Evaluation Committee, [SAS 2023](https://conf.researchr.org/track/sas-2023/sas-2023-sas-2023-artifacts) Artifact Evaluation Committee. 
 * 2021: [TORACLE 2021](https://toracle2021.github.io/) Program Committee.
