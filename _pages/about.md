@@ -155,10 +155,10 @@ This is a list of my latest/most relevant publications. The full list can be fou
 
 ## Service
 
-* 2025: [TOSEM](https://dl.acm.org/journal/tosem), [Internetware 2025](https://conf.researchr.org/home/internetware-2025) Program Committee, [FSE 2025](https://conf.researchr.org/home/fse-2025) Artifact Evaluation Committee.
-* 2024: [TSE](https://www.computer.org/csdl/journal/ts), [FORGE 2024](https://conf.researchr.org/home/forge-2024) Program Committee, [ICSE 2024](https://conf.researchr.org/track/icse-2024/icse-2024-artifact-evaluation) Artifact Evaluation Committee.
-* 2023: [TSE](https://www.computer.org/csdl/journal/ts), [SCAM 2023](http://www.ieee-scam.org/2023/) Program Committee, [ISSTA 2023](https://conf.researchr.org/track/issta-2023/issta-2023-artifact-evaluation) Artifact Evaluation Committee, [SAS 2023](https://conf.researchr.org/track/sas-2023/sas-2023-sas-2023-artifacts) Artifact Evaluation Committee. 
-* 2021: [TORACLE 2021](https://toracle2021.github.io/) Program Committee.
+* 2025: [TOSEM](https://dl.acm.org/journal/tosem), [Internetware 2025](https://conf.researchr.org/track/internetware-2025/internetware-2025-research-track) PC, [FSE 2025](https://conf.researchr.org/track/fse-2025/fse-2025-artifacts) AEC, [ICSE 2025](https://conf.researchr.org/committee/icse-2025/icse-2025-demonstrations-demonstrations) Tool Demos PC.
+* 2024: [TSE](https://www.computer.org/csdl/journal/ts), [FORGE 2024](https://conf.researchr.org/committee/forge-2024/forge-2024-papers-program-committee) PC, [ICSE 2024](https://conf.researchr.org/track/icse-2024/icse-2024-artifact-evaluation) AEC, [ISSTA 2024](https://2024.issta.org/committee/issta-2024-artifact-evaluation-artifact-evaluation-committee) AEC, [ICSME 2024](https://conf.researchr.org/committee/icsme-2024/icsme-2024-industry-track-industry-track---program-committee) Industry Track PC.
+* 2023: [TSE](https://www.computer.org/csdl/journal/ts), [SCAM 2023](http://www.ieee-scam.org/2023/#pc) PC, [ISSTA 2023](https://conf.researchr.org/track/issta-2023/issta-2023-artifact-evaluation) AEC, [SAS 2023](https://conf.researchr.org/track/sas-2023/sas-2023-sas-2023-artifacts) AEC. 
+* 2021: [TORACLE 2021](https://toracle2021.github.io/) PC.
 
 ## Funding
 
