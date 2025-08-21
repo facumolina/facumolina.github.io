@@ -1,0 +1,334 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{amsfonts}
+\usepackage{longtable}
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titleformat{\subsection}{\large\scshape\raggedright}{}{1em}{\underline}[] % Text formatting of subsections
+\titlespacing{\section}{0pt}{3pt}{5pt} % Spacing around sections
+\titlespacing{\subsection}{0pt}{10pt}{2pt} % Spacing around subsections
+\usepackage{graphicx}
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+{\raggedleft{\Huge Facundo \textsc{Molina}}} \\
+\textit{Postdoctoral Researcher} \\
+\textsc{Email:} \href{mailto:facundo.molina@imdea.org}{facundo.molina@imdea.org} \\
+\textsc{Website:} \href{https://facumolina.github.io}{https://facumolina.github.io} \\
+
+{\raggedleft
+\textsc{Research Statement:} my main research interests are in the area of Software Testing and Analysis and the use of Artificial Intelligence for Software Engineering (AI4SE), with the goal of improving software reliability and quality.} \\
+
+\section{Employment History}
+
+\begin{longtable}{ll}
+\\
+2022 - & \textbf{Postdoctoral Researcher} - \textit{IMDEA Software Institute}, Madrid, Spain. \\
+Present & I do research on software testing and analysis, which includes developing and implementing \\ 
+& novel program analysis and testing techniques with the goal of improving software reliability. \\ 
+& This also includes disseminating our research on top tier software engineering conferences and \\ 
+& journals. I participate as the leading researcher in the following projects: \\ & \\
+
+& \textbf{-} \textit{DoGFuzz:} documentation-guided fuzzing for deep learning (DL) library testing. This undergoing \\ 
+& project involves the use of Large Language Models (LLMs) -- e.g., \href{https://mistral.ai/news/mistral-large}{Mistral Large}, \href{https://openai.com/index/gpt-4/}{OpenAI's GPT-4} -- \\ 
+& to extract input constraints from the code documentation, and then use such constraints to guide \\
+& a fuzzing process for testing DL APIs in libraries like \href{https://www.tensorflow.org/}{TensorFlow} and \href{https://pytorch.org/}{PyTorch}. \\ & \\
+
+& \textbf{-} \textit{State Field Coverage:} a novel metric to assess the quality of test oracles. This undergoing project  \\
+& proposes a metric to assess the quality of test oracles in Java by analyzing the proportion of \\ 
+& object states, as statically defined in the corresponding classes, that may be accessed during test \\ 
+& execution. A static analysis-based Java protype is implemented to compute our metric. As part \\ 
+& of this project we assess oracles in popular Java libraries, e.g., \href{https://commons.apache.org/}{Apache Commons}. \\ & \\
+
+& \textbf{-} \textit{FixCheck:} patch correctness assessment improvement based on random testing and Large \\
+& Language Models (LLMs). The goal is to automatically provide tests revealing the incorrectness \\ 
+& of a patch. FixCheck, a tool for analyzing Java patches is implemented using Java, Python, Docker \\
+& and also the \href{https://huggingface.co/}{Hugging Face} and \href{https://ollama.com/}{Ollama} frameworks to support LLMs. \\ 
+& FixCheck is available at: \href{https://github.com/facumolina/fixcheck}{https://github.com/facumolina/fixcheck} \\ & \\
+
+& Additionally, I collaborate in the following research projects: \\ & \\
+
+& \textbf{-} \textit{ASCEND:} aerospace safety-certifiable engineering and networked development. This is a research  
+\\ 
+& project led by Boeing and Anzen Engineering, where I participate as part of the IMDEA research  \\ 
+& team, providing our expertise on formal verification and safety analyses. \\ & \\
+
+& \textbf{-} \textit{Express:} automated generation of test oracles in the form of class invariants using a simulated \\ 
+& annealing evolutionary algorithm. The goal is to infer precise invariants to be used as part of a \\ 
+&  regression testing process. A \href{https://github.com/JuanmaCopia/express}{prototype} for 
+generating class invariants for Java classes is implemented. \\ & \\
+
+& \textbf{-} \textit{MemoRIA:} automated inference of metamorphic oracles combining grammar-based fuzzing, \\
+& dynamic analysis and SAT-based analysis. A \href{https://zenodo.org/records/10683011}{prototype} is implemented using Java and Python, \\ 
+& and using \href{https://randoop.github.io/randoop/}{Randoop} for the dynamic analysis and \href{https://alloytools.org/}{Alloy} for the SAT-based analysis. \\ & \\
+
+& \textbf{-} \textit{PLI:} symbolic execution for programs that manipulate complex heap-allocated data. A \\ 
+& \href{https://github.com/JuanmaCopia/spf-pli}{prototype} is implemented in Java on top of the \href{https://github.com/SymbolicPathFinder/jpf-symbc}{Symbolic PathFinder} engine. \\ & \\
+
+2017 - & \textbf{Ph.D. Student} - \textit{FaMaF, University of Córdoba}, Argentina. \\ 
+2022 & My PhD was focused on developing techniques for the \textit{automated generation of test oracles} using \\
+& search-based and learning-based techniques (evolutionary algorithms and neural nets). My \\
+& advisor was Prof. Nazareno Aguirre and my dissertation is available in the UNC \href{https://rdu.unc.edu.ar/handle/11086/26692}{digital repository}. \\ 
+& The main contributions of my thesis are: \\ & \\
+
+& \textbf{-} \textit{SpecFuzzer:} automated inference of test oracles in the form of class specifications using \\
+& grammar-based fuzzing. SpecFuzzer, a \href{https://github.com/facumolina/specfuzzer}{tool} 
+for inferring oracles for Java classes is implemented using \\ 
+& Java and Python, and built on top of the \href{https://plse.cs.washington.edu/daikon/}{Daikon} dynamic invariant detector. \\ 
+& SpecFuzzer is available at: \href{https://github.com/facumolina/specfuzzer}{https://github.com/facumolina/specfuzzer} \\ & \\ 
+
+& \textbf{-} \textit{EvoSpex:} search-based inference of postconditions of Java methods using genetic algorithms. \\
+& The EvoSpex tool, implemented in Java using the \href{https://homepages.ecs.vuw.ac.nz/~lensenandr/jgap/documentation/}{JGAP} library, aims to produce a \\
+& specification of the method's current behavior, in the form of postcondition assertions. \\
+& EvoSpex is available at: \href{https://github.com/facumolina/evospex}{https://github.com/facumolina/evospex} \\ & \\
+
+& \textbf{-} \textit{NNInvs:} data structure object classification using artificial neural networks. A first \href{https://sites.google.com/site/learninginvariants}{prototype} is \\
+& implemented using Java and Python, relying on the \href{https://scikit-learn.org/stable/index.html}{scikit-learn} library. A second \href{https://sites.google.com/site/learninginvariants}{prototype} is \\ 
+& developed (to be used in the context of symbolic execution) using the \href{https://keras.io/}{Keras} deep learning library. \\ & \\
+
+2014 - & \textbf{Teaching Assistant} - \textit{Department of Computer Science, University of Río Cuarto}, Argentina. \\ 
+2022 & I was a Teaching assistant in different courses of a Computer Science degree, including Computability \\
+& and Complexity, Distributed and Outsourced Software Engineering, and Introduction to \\
+& Programming. My teaching duties involved being in charge of practical classes where students had \\  
+& to solve assignments. Before graduating in 2017, I was a Student teaching assistant in courses such \\ 
+& as Data Structures and Algorithms, Algorithms Design Techniques, Programming Paradigms and \\
+& System Design and Analysis where I helped other teacher assistants. \\ & \\
+
+2015 - & \textbf{Software Engineer} - \textit{SMF Consulting S.L}. \\ 
+2019 & Java Software Developer providing solutions to different customers based on an ERP platform. \\ 
+& During this time I worked with different teams implementing backend solutions in Java (CRUD \\ 
+& operations, API definitions, and integrations with other platforms), maintaining a PostgreSQL \\
+& database, extending and improving a frontend for retail operations using JavaScript, and  \\
+& performing DevOps tasks managing AWS and Vultr servers. \\ & \\
+
+%2014 - & \textbf{Student Teaching Assistant} - \textit{Department of Computer Science, University of} \\ 
+%2017 & \textit{Río Cuarto}, Argentina. Student teaching assistant in different courses of a degree in \\ 
+%& Computer Science including Algorithms I, Algorithms II, Comparative Analysis of \\ 
+%& Languages and Analysis and Design of Systems. 
+%\\ & \\
+\end{longtable}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{longtable}{ll}
+\\
+2017 - & \textbf{Ph.D., Computer Science} \\
+2022 & Dissertation: Techniques based on Learning and Search for Specification Inference. \\
+& \textit{Faculty of Mathematics, Astronomy, Physics and Computing - FaMaF} \\ & \textit{University of Córdoba} - Argentina \\ & \\
+
+2012 - & \textbf{Computer Science Licenciate} \\
+2017 & (5-year + thesis undergraduate program of study) \\
+& \textit{Department of Computer Science - FCEFQyN} \\ & \textit{University of Río Cuarto} - Argentina \\ 
+& \textsc{Thesis project:} Automatic Learning of Relational Specifications using \\ 
+& Evolutionary Computation. \textsc{Average score:} 9.43 out of 10 \\ & \\
+
+2012 -	& \textbf{B.S. in Computer Science} \\
+2014 & \textit{Department of Computer Science - FCEFQyN} \\ 
+& \textit{University of Río Cuarto} - Argentina \\
+& \textsc{Thesis project:} Project in the course of Distributed and Outsourced \\ 
+& Software Engineering. \textsc{Average score:} 9.33 out of 10 \\ \\ 
+
+\end{longtable}
+
+\section{Publications}
+
+{\raggedleft
+This is a list of my latest/most relevant publications. The full list can be found in \href{https://dblp.org/pid/189/6361.html}{dblp} or \href{https://scholar.google.com/citations?user=_8J_7doAAAAJ}{google scholar}.} \\
+
+\begin{longtable}{rl}
+
+\textsc{May} 2025  & \textbf{Test Oracle Automation in the Era of LLMs} \\
+        & Facundo Molina, Alessandra Gorla and Marcelo d'Amorim. \\ 
+        & \textit{ACM Transactions on Software Engineering and Methodology, TOSEM 2025.} \href{https://dl.acm.org/doi/10.1145/3715107}{[doi]} \\ & \\
+
+\textsc{July} 2024  & \textbf{Abstraction-Aware Inference of Metamorphic Relations} \\
+        & Agustín Nolasco, Facundo Molina, Renzo Degiovanni, Alessandra Gorla, \\ 
+        & Diego Garbervetsky, Mike Papadakis, Sebastian Uchitel, Nazareno Aguirre \\
+        & and Marcelo F. Frias. \\
+        & \textit{ACM Conference on the Foundations of Software Engineering, FSE 2024,} \\
+        & \textit{Porto de Galinhas, Brazil, July 15 - 19, 2024.} \href{https://dl.acm.org/doi/10.1145/3643747}{[doi]} \\ & \\
+
+\textsc{May} 2024  & \textbf{Improving Patch Correctness Analysis via Random Testing} \\
+        & \textbf{and Large Language Models} \\
+        & Facundo Molina, Juan Manuel Copia and Alessandra Gorla. \\
+        & \textit{To appear in the 17th IEEE International Conference on Software Testing,} \\
+        & \textit{Verification and Validation, ICST 2024, Toronto, Canada, May 27 - 31, 2024.} \href{https://ieeexplore.ieee.org/document/10638611/}{[doi]} \\ & \\
+
+\textsc{October} 2023  & \textbf{Enabling Efficient Assertion Inference} \\
+        & Aayush Garg, Renzo Degiovanni, Facundo Molina, Maxime Cordy,\\
+        & Nazareno Aguirre, Mike Papadakis, and Yves Le Traon. \\
+        & \textit{IEEE 34th International Symposium on Software Reliability Engineering,} \\
+        & \textit{ISSRE 2023, Florence, Italy, October 9 - 12, 2023.} \href{https://doi.ieeecomputersociety.org/10.1109/ISSRE59848.2023.00039}{[doi]}\\ & \\
+
+\textsc{October} 2023  & \textbf{Precise Lazy Initialization for Programs with Complex Heap Inputs} \\
+        & Juan Manuel Copia, Facundo Molina, Nazareno Aguirre, Marcelo F. Frias,\\
+        & Alessandra Gorla, and Pablo Ponzio. \\
+        & \textit{IEEE 34th International Symposium on Software Reliability Engineering,} \\
+        & \textit{ISSRE 2023, Florence, Italy, October 9 - 12, 2023.} \href{https://doi.ieeecomputersociety.org/10.1109/ISSRE59848.2023.00080}{[doi]}\\ & \\
+
+\textsc{November} 2022  & \textbf{Learning to Prune Infeasible Paths in Generalized Symbolic Execution} \\
+        & Facundo Molina, Pablo Ponzio, Nazareno Aguirre and Marcelo F. Frias.\\
+        & \textit{IEEE 33rd International Symposium on Software Reliability Engineering,} \\
+        & \textit{ISSRE 2022, Charlotte, NC, USA, October 31 - Nov. 3, 2022.} \href{https://doi.org/10.1109/ISSRE55969.2022.00054}{[doi]} \\ & \\
+
+\textsc{May} 2022  & \textbf{Fuzzing Class Specifications} \\
+	& Facundo Molina, Marcelo d'Amorim and Nazareno Aguirre. \\
+	& \textit{Proceedings of the 44th ACM/IEEE International Conference on Software} \\
+	& \textit{Engineering, ICSE 2022, Pittsburgh, USA, May 22-27, 2022.} \href{https://dl.acm.org/doi/abs/10.1145/3510003.3510120}{[doi]}\\ & \\
+
+\textsc{May} 2021  & \textbf{EvoSpex: An Evolutionary Algorithm for Learning Postconditions} \\
+& Facundo Molina, Pablo Ponzio, Nazareno Aguirre and Marcelo F. Frias. \\
+& \textit{Proceedings of the 43rd ACM/IEEE International Conference on Software} \\
+& \textit{Engineering, ICSE 2021, Madrid, Spain, May 23-29, 2021.} \href{https://doi.ieeecomputersociety.org/10.1109/ICSE43902.2021.00112}{[doi]} \\ & \\
+
+
+\textsc{May} 2019  & \textbf{Training Binary Classifiers as Data Structure Invariants} \\ 
+& Facundo Molina, Pablo Ponzio, Renzo Degiovanni, Germán Regis, \\ 
+& Nazareno Aguirre and Marcelo Frias \\
+& \textit{Proceedings of the 41th International Conference on Software Engineering,} \\
+& \textit{ICSE 2019, Montreal, Canada, May 25-31, 2019.} \href{https://doi.ieeecomputersociety.org/10.1109/ICSE.2019.00084}{[doi]} \\ & \\
+
+\end{longtable}
+
+\section{Research Grants \& Scholarships}
+\begin{longtable}{rl}
+
+2017 & \textbf{Doctoral Scholarship} \\ 
+& \textit{5-year Scholarship granted by Argentina's National Scientific and Technical Research} \\
+& \textit{Council (CONICET) to fund doctoral students.} \\ & \\
+
+2016 & \textbf{EVC-CIN Scholarship} \\ 
+& \textit{1-year Scolarship granted by the argentinian National Inter University Council (CIN)} \\
+& \textit{to encourage undergraduate students to pursue scientific vocations.} \\ & \\
+
+\end{longtable}
+
+
+\section{Honors \& Awards}
+\begin{longtable}{rl}
+
+\textsc{2020} & \textbf{Latin America PhD Award} \\
+& \textit{A research award for PhD students in computing related fields in their 3rd year} \\
+& \textit{or beyond at universities in Latin America, and granted by Microsoft Research.} \\ & \\
+
+\textsc{2018} & \textbf{Best Paper Award} \\ 
+& \textit{From Operational to Declarative Specifications using a Genetic Algorithm} \\
+& \textit{11th International Workshop on Search-Based Software Testing, SBST 2018.} \\ & \\
+
+\textsc{2016} & \textbf{Best Paper Award} \\ 
+& \textit{An Evolutionary Approach to Translate Operational Specifications into } \\
+& \textit{Declarative Specifications, 19th Brazilian Symposium on Formal Methods, SBMF 2016.} \\ & \\
+
+\textsc{2016} & \textbf{University of Rio Cuarto flag bearer for a 1-year period} \\ 
+& \textit{Traditional honour in educational institutions in Argentina to the three top students} \\ 
+& \textit{in the institution.} \\ & \\
+\end{longtable}
+
+%\section{Teaching Background}
+%\begin{longtable}{rl}
+
+%\textsc{March 2018} & \textbf{Teaching Assistant} \\
+%\textsc{- June 2022} & \textsc{Courses:} Computability and Complexity, Distributed and Outsourced \\
+%& Software Engineering, Introduction to Programming. \\
+%& \textit{Department of Computer Science - FCEFQyN} \\
+%& \textit{University of Río Cuarto} - Argentina \\ & \\
+
+%\textsc{August 2014} & \textbf{Student Teaching Assistant} \\
+%\textsc{- June 2017} & \textsc{Courses:} Data Structures and Algorithms, Algorithms Design Techniques, \\
+%& Programming Paradigms, and System Design and Analysis. \\
+%& \textit{Department of Computer Science - FCEFQyN} \\
+%& \textit{University of Río Cuarto} - Argentina \\ & \\
+
+%\end{longtable}
+
+\section{Supervised Students}
+\begin{longtable}{rl}
+
+2024 & \textbf{Claudio Dosantos} - \textit{Undergraduate student} - University of Río Cuarto, Argentina. \\
+& Claudio's thesis aims to analyze the effectiveness of regression testing when using \\ 
+& different kind of oracles, such as unit assertions and contracts. \\ & \\
+
+2024 & \textbf{Ignacio Gonzalez} - \textit{Undergraduate student} - University of Río Cuarto, Argentina. \\
+& Automated test generation tools play a crucial role on dynamic specification inference \\ 
+& techniques. Ignacio's work aims at studying how different test generation approaches \\ 
+& affects the effectiveness of specification inference techniques. \\ & \\
+
+2023 & \textbf{Agustin Nolasco} - \textit{Undergraduate student} - University of Río Cuarto, Argentina. \\ 
+& Agustin's thesis presents a new technique for the inference of metamorphic oracles, \\ 
+& based on runtime analysis, grammar-based fuzzing and SAT solving. \\ & \\
+
+\end{longtable}
+
+\section{Academic Service}
+\begin{longtable}{rl}
+
+\textsc{2024} & Program committee at \textit{International Conference on AI Foundation Models and Software} \\ 
+& \textit{Engineering (FORGE 2024)}. Reviewer at \textit{IEEE Transactions on Software Engineering (TSE)}. \\
+& Programm committee of the Industry track at \textit{International Conference on Software} \\
+& \textit{Maintenance and Evolution (ICSME 2024).} Artifact Evaluation committee at \textit{International,} \\
+& \textit{Conference on Software Engineering (ICSE 2024), International Symposium on Software Testing} \\ 
+& \textit{and Analysis (ISSTA 2024).} \\ & \\
+
+\textsc{2023} & Program committee at \textit{International Working Conference on Source Code Analysis and} \\ 
+& \textit{Manipulation (SCAM 2023)}. Reviewer at \textit{IEEE Transactions on Software Engineering (TSE)}. \\
+& Artifact Evaluation committee at \textit{International Symposium on Software Testing and Analysis,} \\ 
+& \textit{(ISSTA 2023), Static Analysis Symposium (SAS 2023).} \\ & \\
+
+\textsc{2021} & Program committee at \textit{International Workshop on Test Oracles (TORACLE 2021)}. \\ & \\
+
+
+\end{longtable}
+
+\section{Languages}
+\begin{tabular}{rl}
+\\
+\textsc{Spanish:} & Mother tongue\\
+\textsc{English:} & Fluent \\ & \\
+\end{tabular}
+
+\end{document}
