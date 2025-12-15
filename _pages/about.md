@@ -2,13 +2,12 @@
 permalink: /
 ---
 
-I'm an **Assistant Professor** at the Software Systems and Computing department,  Computer Science Faculty, Complutense University of Madrid (UCM), Spain.
+**Assistant Professor** - Software Systems and Computing department, Computer Science Faculty, Complutense University of Madrid (UCM), Spain.
 
-My main research interests are in the area of Software Testing and Analysis and the use of Artificial Intelligence for Software Engineering (AI4SE), with the goal of improving software reliability and quality.
+My research interests are in the area of Software Testing and Analysis and the use of Artificial Intelligence for Software Engineering (AI4SE), with the goal of improving software reliability and quality. My research is focused in improving software quality via automated test generation, test oracle generation and analysis and program repair. 
 
-Before joining UCM, I worked at the [IMDEA Software Institute](https://software.imdea.org/) as a **Postdoctoral Researcher**, under the supervision of [Alessandra Gorla](https://software.imdea.org/~alessandra.gorla/). 
-
-In April 2022, I received my Ph.D. at [FAMAF](https://www.famaf.unc.edu.ar/), University of Córdoba (UNC, Argentina), where I was advised by Professor [Nazareno Aguirre](https://dc.exa.unrc.edu.ar/staff/naguirre). My research focused on the **automated generation of test oracles**, in the form of class invariants and postconditions. Particularly, my work involved the use of search-based and learning-based techniques (mainly evolutionary algorithms and neural networks) with the goal of obtaining precise oracles. My dissertation is available in the UNC [digital repository](https://rdu.unc.edu.ar/handle/11086/26692).
+Before joining UCM, I worked at the [IMDEA Software Institute](https://software.imdea.org/) as a **Postdoctoral Researcher**, under the supervision of [Alessandra Gorla](https://software.imdea.org/~alessandra.gorla/), 
+and received my Ph.D. in April 2022 at [FAMAF](https://www.famaf.unc.edu.ar/), University of Córdoba (UNC, Argentina), where I was advised by Professor [Nazareno Aguirre](https://dc.exa.unrc.edu.ar/staff/naguirre). My Ph.D. research focused on the **automated generation of test oracles** and my dissertation is available in the UNC [digital repository](https://rdu.unc.edu.ar/handle/11086/26692).
 
 ## Projects
 
@@ -142,20 +141,21 @@ This is a list of my latest/most relevant publications. The full list can be fou
 ## Research Team
 
 **Researchers**
-* [Alessandra Gorla](https://software.imdea.org/~alessandra.gorla/) (IMDEA, Spain - current supervisor)
+* [Alessandra Gorla](https://software.imdea.org/~alessandra.gorla/) (IMDEA, Spain - former postdoc supervisor)
 * [Nazareno Aguirre](https://dc.exa.unrc.edu.ar/staff/naguirre) (UNRC, Argentina - former PhD advisor)
-* [Marcelo d'Amorim](https://damorim.github.io/) (NCSU, USA)
 * [Renzo Degiovanni](https://rdegiovanni.github.io/) (SnT, Luxembourg)
+* [Marcelo d'Amorim](https://damorim.github.io/) (NCSU, USA)
 * Pablo Ponzio (UNRC, Argentina)
 <br>
 
 **PhD students**
-* [Juan Manuel Copia](https://www.linkedin.com/in/juancopia/) (IMDEA, Spain - collaborator)
+* [Agustín Nolasco](https://agusnolasco.github.io/) (UNRC, Argentina): working on metamorphic testing.
 <br>
 
 **Undergraduate Students**
-* [Agustín Nolasco](https://agusnolasco.github.io/) (UNRC, Argentina): working on metamorphic testing.
+* Edgar Agustín Balestra (UNRC, Argentina): working on dynamic specification inference.
 * [Claudio Dosantos](https://ar.linkedin.com/in/claudio-dosantos) (UNRC, Argentina): working on oracle effectiveness.
+
 
 ## Service
 
