@@ -2,7 +2,11 @@
 permalink: /
 ---
 
-I work at the [IMDEA Software Institute](https://software.imdea.org/) as a **Postdoctoral Researcher**, under the supervision of [Alessandra Gorla](https://software.imdea.org/~alessandra.gorla/). My main research interests are in the area of Software Testing and Analysis and the use of Artificial Intelligence for Software Engineering (AI4SE), with the goal of improving software reliability and quality.
+I'm an **Assistant Professor** at the Software Systems and Computing department,  Computer Science Faculty, Complutense University of Madrid (UCM), Spain.
+
+My main research interests are in the area of Software Testing and Analysis and the use of Artificial Intelligence for Software Engineering (AI4SE), with the goal of improving software reliability and quality.
+
+Before joining UCM, I worked at the [IMDEA Software Institute](https://software.imdea.org/) as a **Postdoctoral Researcher**, under the supervision of [Alessandra Gorla](https://software.imdea.org/~alessandra.gorla/). 
 
 In April 2022, I received my Ph.D. at [FAMAF](https://www.famaf.unc.edu.ar/), University of Córdoba (UNC, Argentina), where I was advised by Professor [Nazareno Aguirre](https://dc.exa.unrc.edu.ar/staff/naguirre). My research focused on the **automated generation of test oracles**, in the form of class invariants and postconditions. Particularly, my work involved the use of search-based and learning-based techniques (mainly evolutionary algorithms and neural networks) with the goal of obtaining precise oracles. My dissertation is available in the UNC [digital repository](https://rdu.unc.edu.ar/handle/11086/26692).
 
