@@ -92,14 +92,6 @@ This is a list of my latest/most relevant publications. The full list can be fou
 <a href="https://nmaguirre.github.io/assets/pdf/issre2023a.pdf">.pdf</a>&nbsp;]
 </p>
 
-<p><a name="issre-copia-2023"></a>
-
-<b>Precise Lazy Initialization for Programs with Complex Heap Inputs</b> by Juan Manuel Copia, Facundo Molina, Nazareno Aguirre, Marcelo Frias, Alessandra Gorla, and Pablo Ponzio. In <em>34th IEEE International Symposium on Software Reliability Engineering, ISSRE 2023, Florence, Italy, October 9-12</em>, 2023.
-[&nbsp;<a href="https://github.com/JuanmaCopia/spf-pli">code</a>&nbsp;|
-<a href="https://nmaguirre.github.io/assets/pdf/issre2023b.pdf">.pdf</a>&nbsp;]
-
-</p>
-
 <p><a name="DBLP:conf/issre/Molina22"></a>
 
 <b>Learning to Prune Infeasible Paths in Generalized Symbolic Execution</b> by Facundo Molina, Pablo Ponzio, Nazareno Aguirre, and Marcelo&nbsp;F. Frias. In <em>33rd IEEE International Symposium on Software
