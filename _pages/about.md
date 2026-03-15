@@ -51,13 +51,22 @@ and received my Ph.D. in April 2022 at [FAMAF](https://www.famaf.unc.edu.ar/), U
 ## Publications
 This is a list of my latest/most relevant publications. The full list can be found in my <a href="https://dblp.org/pid/189/6361.html">dblp</a> or <a href="https://scholar.google.com/citations?user=_8J_7doAAAAJ">google scholar</a>. 
 
+
+<p><a name="ase-molina-2025"></a>
+
+<b>State Field Coverage: A Metric for Oracle Quality
+</b> by Facundo Molina, Nazareno Aguirre and Alessandra Gorla. In <em>2025 40th IEEE/ACM International Conference on Automated Software Engineering, ASE 2025, Seoul, South Korea, November 16-20</em>, 2025.
+[&nbsp;
+<a href="https://doi.org/10.1109/ASE63991.2025.00222">doi</a>&nbsp;]
+</p>
+
 <p><a name="tosem-molina-2025"></a>
 
 <b>Test Oracle Automation in the Era of LLMs
 </b> by Facundo Molina, Alessandra Gorla and Marcelo d'Amorim. In <em>ACM Transactions on Software Engineering and Methodology
 </em>, 2025.
 [&nbsp;
-<a href="https://dl.acm.org/doi/10.1145/3715107">https</a>&nbsp;]
+<a href="https://dl.acm.org/doi/10.1145/3715107">doi</a>&nbsp;]
 </p>
 
 <p><a name="fse-nolasco-2024"></a>
@@ -66,7 +75,7 @@ This is a list of my latest/most relevant publications. The full list can be fou
 </b> by Agustín Nolasco, Facundo Molina, Renzo Degiovanni, Alessandra Gorla, Diego Garbervetsky, Mike Papadakis, Sebastian Uchitel, Nazareno Aguirre and Marcelo F. Frias. In <em>Proceedings of the ACM on Software Engineering</em>, Vol. 1, Issue FSE, 2024.
 [&nbsp;<a href="https://zenodo.org/records/10683011">code</a>&nbsp;|
 <a href="https://rdegiovanni.github.io/publications/files/FSE2024.pdf">.pdf</a>&nbsp;|
-<a href="https://dl.acm.org/doi/10.1145/3643747">https</a>&nbsp;]
+<a href="https://dl.acm.org/doi/10.1145/3643747">doi</a>&nbsp;]
 </p>
 
 <p><a name="icst-molina-2024"></a>
@@ -97,7 +106,7 @@ This is a list of my latest/most relevant publications. The full list can be fou
   Reliability Engineering, ISSRE 2022, Charlotte, NC, USA, October
   31-November 3</em>, 2022.
 [&nbsp;<a href="https://sites.google.com/view/learning-symbolic-invariants">code</a>&nbsp;|
-<a href="https://ieeexplore.ieee.org/document/9978961">https</a>&nbsp;|
+<a href="https://ieeexplore.ieee.org/document/9978961">doi</a>&nbsp;|
 <a href="https://facumolina.github.io/files/Molina_ETAL_ISSRE2022.pdf">.pdf</a>&nbsp;]
 </p>
 
@@ -122,7 +131,7 @@ This is a list of my latest/most relevant publications. The full list can be fou
   IEEE, 2021.
 [&nbsp;<a href="https://sites.google.com/view/evospex">code</a>&nbsp;|
 <a href="https://youtu.be/PuFML86C1SA">media</a>&nbsp;|
-<a href="https://doi.org/10.1109/ICSE43902.2021.00112">https</a>&nbsp;|
+<a href="https://doi.org/10.1109/ICSE43902.2021.00112">doi</a>&nbsp;|
 <a href="https://facumolina.github.io/files/evospex-icse2021.pdf">.pdf</a>&nbsp;]
 
 </p>
@@ -133,7 +142,7 @@ This is a list of my latest/most relevant publications. The full list can be fou
  <b>Training Binary Classifiers as Data Structure Invariants</b> by Facundo Molina, Renzo Degiovanni, Pablo Ponzio, Germ&aacute;n Regis, Nazareno
   Aguirre, and Marcelo&nbsp;F. Frias. In <em> Proceedings of the 41st International Conference on Software Engineering, ICSE 2019, Montreal, QC, Canada, May 25-31, 2019</em>, pages 759&ndash;770. IEEE / ACM, 2019.
 [&nbsp;<a href="https://sites.google.com/site/learninginvariants">code</a>&nbsp;|
-<a href="https://doi.org/10.1109/ICSE.2019.00084">https</a>&nbsp;|
+<a href="https://doi.org/10.1109/ICSE.2019.00084">doi</a>&nbsp;|
 <a href="https://dc.exa.unrc.edu.ar/staff/naguirre/papers/icse2019.pdf">.pdf</a>&nbsp;]
 
 </p>
